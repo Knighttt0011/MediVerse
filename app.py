@@ -14,7 +14,7 @@ app.secret_key = 'your-secret-key-here'  # 请更改为安全的密钥
 
 # DeepSeek API配置
 client = OpenAI(
-    api_key="sk-cec51cae7ee442da9c8f30fe4f26cc11", 
+    api_key="your_api_key", 
     base_url="https://api.deepseek.com"
 )
 
