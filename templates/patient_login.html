@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>患者登录 - Web Mediverse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .login-title {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #34495e;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #ecf0f1;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #e74c3c;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(231, 76, 60, 0.3);
+        }
+
+        .error-message {
+            color: #e74c3c;
+            margin-top: 15px;
+            padding: 10px;
+            background: rgba(231, 76, 60, 0.1);
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            color: #7f8c8d;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #34495e;
+        }
+
+        .patient-note {
+            background: rgba(231, 76, 60, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            border-left: 4px solid #e74c3c;
+        }
+
+        .patient-note p {
+            color: #2c3e50;
+            font-size: 0.9em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-title">👤 患者登录</div>
+        
+        <div class="patient-note">
+            <p>请输入您的患者ID进行身份验证<br>
+            测试ID：12258, 12263, 12265, 12269 等</p>
+        </div>
+
+        <form method="POST" action="/verify_patient">
+            <div class="form-group">
+                <label for="patient_id">患者ID</label>
+                <input type="text" id="patient_id" name="patient_id" required 
+                       placeholder="请输入您的患者ID">
+            </div>
+            
+            <button type="submit" class="submit-btn">登录</button>
+        </form>
+
+        {% if error %}
+        <div class="error-message">
+            {{ error }}
+        </div>
+        {% endif %}
+
+        <a href="/" class="back-link">← 返回主页</a>
+    </div>
+</body>
+</html>

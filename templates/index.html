@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Mediverse - 智能医疗平台</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 60px;
+            text-align: center;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        
+        .logo {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 40px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        
+        .role-button {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            border-radius: 15px;
+            font-size: 1.1em;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            min-width: 150px;
+        }
+        
+        .role-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(52, 152, 219, 0.4);
+        }
+        
+        .role-button.patient {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+        }
+        
+        .info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            margin-top: 20px;
+        }
+        
+        .info h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        
+        .info p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏥 Web Mediverse</div>
+        <div class="subtitle">智能医疗对话平台</div>
+        
+        <div class="button-group">
+            <a href="/doctor_login" class="role-button">
+                👨‍⚕️ 医生入口
+            </a>
+            <a href="/patient_login" class="role-button patient">
+                👤 患者入口
+            </a>
+        </div>
+        
+        <div class="info">
+            <h3>📋 使用说明</h3>
+            <p><strong>医生功能：</strong> 经过验证即可查询您的病人的病历，并为您提供相关文献辅助诊断。本次测试使用测试验证码<code>123</code> 登录，查询患者报告和相关文献</p>
+            <p><strong>患者功能：</strong>使用患者ID登录，为您提供您的专属AI健康助手，为您的健康保驾护航。</p>
+            <p><strong>测试数据：</strong>系统已加载真实医疗数据和PubMed文献</p>
+        </div>
+    </div>
+</body>
+</html>

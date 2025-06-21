@@ -1,0 +1,3509 @@
+row_id,subject_id,hadm_id,admittime,dischtime,deathtime,admission_type,hospital_expire_flag,has_chartevents_data,icd9_code,icd9_code_proc,drug,structured_report,structured_report_rag
+12258,2798235896,2317116601,2165-10-23 21:09:00,2165-11-01 17:15:00,,EMERGENCY,0,1,99591; 99662; 5672; 40391; 42731; 4280; 4241; 4240; 2874; 03819; 7850; E8791; V090; 56211; 28529; 25000; V5867; E9342; 41401; 2749; 3051,9749; 5491; 3895; 3995; 3893; 9907; 14,Sodium Chloride 0.9%  Flush; Glipizide; Metoprolol; Sevelamer; Insulin; Pantoprazole; Acetaminophen; Magnesium Oxide; Docusate Sodium; Senna; Magnesium Sulfate; Linezolid; Potassium Chloride; Linezolid; Diphenhydramine HCl; Zolpidem Tartrate; Midazolam HCl; Midazolam HCl; Metronidazole; Levofloxacin; Phytonadione; Oxycodone-Acetaminophen; Alteplase (Catheter Clearance); Warfarin; Moexipril HCl; Sevelamer; Sevelamer; Alteplase (Catheter Clearance); Aspirin; Atorvastatin; Metoclopramide; Potassium Chloride; Zolpidem Tartrate; Metronidazole; Pneumococcal Vac Polyvalent; Levofloxacin; Ceftriaxone; Metronidazole; Vancomycin HCl; Ampicillin Sodium; Unasyn; Vancomycin HCl; Vancomycin HCl; Magnesium Sulfate; Vancomycin HCl; Iso-Osmotic Dextrose; NS; D5W; NS; NS; Iso-Osmotic Dextrose; Iso-Osmotic Dextrose; D5W; D5W,"```json
+{
+  ""admission_time"": ""2165-10-23 21:09:00"",
+  ""discharge_time"": ""2165-11-01 17:15:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""99591"",
+    ""99662"",
+    ""5672"",
+    ""40391"",
+    ""42731"",
+    ""4280"",
+    ""4241"",
+    ""4240"",
+    ""2874"",
+    ""03819"",
+    ""7850"",
+    ""E8791"",
+    ""V090"",
+    ""56211"",
+    ""28529"",
+    ""25000"",
+    ""V5867"",
+    ""E9342"",
+    ""41401"",
+    ""2749"",
+    ""3051""
+  ],
+  ""main_procedure_icd9"": [
+    ""9749"",
+    ""5491"",
+    ""3895"",
+    ""3995"",
+    ""3893"",
+    ""9907"",
+    ""14""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Sodium Chloride 0.9% Flush"",
+    ""Glipizide"",
+    ""Metoprolol"",
+    ""Sevelamer"",
+    ""Insulin"",
+    ""Pantoprazole"",
+    ""Acetaminophen"",
+    ""Magnesium Oxide"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Magnesium Sulfate"",
+    ""Linezolid"",
+    ""Potassium Chloride"",
+    ""Linezolid"",
+    ""Diphenhydramine HCl"",
+    ""Zolpidem Tartrate"",
+    ""Midazolam HCl"",
+    ""Midazolam HCl"",
+    ""Metronidazole"",
+    ""Levofloxacin"",
+    ""Phytonadione"",
+    ""Oxycodone-Acetaminophen"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Warfarin"",
+    ""Moexipril HCl"",
+    ""Sevelamer"",
+    ""Sevelamer"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Aspirin"",
+    ""Atorvastatin"",
+    ""Metoclopramide"",
+    ""Potassium Chloride"",
+    ""Zolpidem Tartrate"",
+    ""Metronidazole"",
+    ""Pneumococcal Vac Polyvalent"",
+    ""Levofloxacin"",
+    ""Ceftriaxone"",
+    ""Metronidazole"",
+    ""Vancomycin HCl"",
+    ""Ampicillin Sodium"",
+    ""Unasyn"",
+    ""Vancomycin HCl"",
+    ""Vancomycin HCl"",
+    ""Magnesium Sulfate"",
+    ""Vancomycin HCl"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W""
+  ]
+}
+```","```json
+{
+  ""admission_time"": ""2165-10-23 21:09:00"",
+  ""discharge_time"": ""2165-11-01 17:15:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""99591"",
+    ""99662"",
+    ""5672"",
+    ""40391"",
+    ""42731"",
+    ""4280"",
+    ""4241"",
+    ""4240"",
+    ""2874"",
+    ""03819"",
+    ""7850"",
+    ""E8791"",
+    ""V090"",
+    ""56211"",
+    ""28529"",
+    ""25000"",
+    ""V5867"",
+    ""E9342"",
+    ""41401"",
+    ""2749"",
+    ""3051""
+  ],
+  ""main_procedure_icd9"": [
+    ""9749"",
+    ""5491"",
+    ""3895"",
+    ""3995"",
+    ""3893"",
+    ""9907"",
+    ""14""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Sodium Chloride 0.9% Flush"",
+    ""Glipizide"",
+    ""Metoprolol"",
+    ""Sevelamer"",
+    ""Insulin"",
+    ""Pantoprazole"",
+    ""Acetaminophen"",
+    ""Magnesium Oxide"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Magnesium Sulfate"",
+    ""Linezolid"",
+    ""Potassium Chloride"",
+    ""Linezolid"",
+    ""Diphenhydramine HCl"",
+    ""Zolpidem Tartrate"",
+    ""Midazolam HCl"",
+    ""Midazolam HCl"",
+    ""Metronidazole"",
+    ""Levofloxacin"",
+    ""Phytonadione"",
+    ""Oxycodone-Acetaminophen"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Warfarin"",
+    ""Moexipril HCl"",
+    ""Sevelamer"",
+    ""Sevelamer"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Aspirin"",
+    ""Atorvastatin"",
+    ""Metoclopramide"",
+    ""Potassium Chloride"",
+    ""Zolpidem Tartrate"",
+    ""Metronidazole"",
+    ""Pneumococcal Vac Polyvalent"",
+    ""Levofloxacin"",
+    ""Ceftriaxone"",
+    ""Metronidazole"",
+    ""Vancomycin HCl"",
+    ""Ampicillin Sodium"",
+    ""Unasyn"",
+    ""Vancomycin HCl"",
+    ""Vancomycin HCl"",
+    ""Magnesium Sulfate"",
+    ""Vancomycin HCl"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W""
+  ]
+}
+```
+
+【相关文献补充】
+PMID: 40510615
+摘要: 1. Kidney Med. 2025 Apr 18;7(6):101012. doi: 10.1016/j.xkme.2025.101012. 
+eCollection 2025 Jun.
+
+Time Trends and Causes of Infection-Related Mortality Among Patients Starting 
+Dialysis in Finland: A Nationwide Cohort Study.
+
+Kinnunen S(1), Helanterä I(2), Juutilainen A(3), Bitar W(4), Helve J(4)(5), 
+Finne P(4).
+
+Author information:
+(1)Division of Nephrology, Department of Medicine, Kuopio University Hospital 
+and University of Eastern Finland, Kuopio, Finland.
+(2)Transplantation and Liver Surgery, Helsinki University Hospital and 
+University of Helsinki, Helsinki, Finland.
+(3)Institute of Clinical Medicine/Internal Medicine, University of Eastern 
+Finland, Kuopio, Finland.
+(4)Department of Nephrology, University of Helsinki and Helsinki University 
+Hospital, Helsinki, Finland.
+(5)Finnish Registry for Kidney Diseases, Finnish Kidney and Liver Association, 
+Helsinki, Finland.
+
+RATIONALE & OBJECTIVE: Previously, we reported a decrease in infection-related 
+mortality in kidney transplant recipients. Regarding patients treated with 
+dialysis, it is unclear whether infection-related mortality is decreasing. 
+Therefore, we investigated current time trends and specific causes of 
+infection-related mortality over 2 decades in a large cohort of patients treated 
+with dialysis.
+STUDY DESIGN: A nationwide cohort study.
+SETTING & PARTICIPANTS: Patients starting kidney replacement therapy were 
+identified through the Finnish Registry for Kidney Diseases. Follow-up continued 
+until death of any cause, kidney transplantation, moving abroad, recovery of 
+kidney function, loss of follow-up, or end of study.
+EXPOSURE: Long-term kidney replacement therapy.
+OUTCOME: Death due to infection.
+ANALYTICAL APPROACH: Incidence rates, incidence rate ratios, and adjusted Cox 
+regression hazard ratios for infection-related deaths were calculated by 
+sub-cohorts consisting of patients whose kidney replacement therapy was started 
+either 2000-2004, 2005-2009, 2010-2014, or 2015-2019. As sensitivity analyses, 
+we studied infection-related mortality within 1 year of dialysis initiation and 
+performed competing risk analysis.
+RESULTS: A total of 9,671 adult patients started long-term dialysis from 2000 to 
+2019. Infection-related deaths declined from 47 to 23 deaths per 1,000 
+person-years over the four 5-year intervals from 2000-2004 to 2015-2019. The 
+hazard ratio of a Cox model including identified risk factors was 0.49 (95% CI, 
+0.39-0.62) for patients who started dialysis in 2015-2019 compared with those 
+who started in 2000-2004. The most common specific causes of infection-related 
+deaths were septicemia (38%), pulmonary infection (36%), and peritonitis (8%), 
+whereas opportunistic infections rarely caused death.
+LIMITATIONS: Death certificates may have low sensitivity for infectious 
+diseases. Only one cause of death is available. Categories of infectious deaths 
+may overlap.
+CONCLUSIONS: Risk of dying due to infections has halved since the beginning of 
+the millennium despite aging among patients treated with dialysis. The reason 
+for this development requires further studies.
+
+Plain Language Summary: Patients treated with dialysis experience a very 
+significantly increased risk of dying from infection compared to the general 
+population. This study evaluated current time trends and specific causes of 
+infectious disease mortality in patients treated with dialysis in Finland from 
+2000 to 2019 based on data from the national registry with complete coverage of 
+the dialysis cohort. The risk of death from infection in maintenance dialysis in 
+Finland has dropped by half since the 2000s, despite the aging and increased 
+number of patients treated with dialysis. Sepsis, pneumonia, peritonitis, and 
+common bacterial infections were the most frequent causes of infectious deaths 
+in patients treated with dialysis. This period of study preceded the Covid-19 
+pandemic and provides a baseline for future comparison.
+
+© 2025 The Authors.
+
+DOI: 10.1016/j.xkme.2025.101012
+PMCID: PMC12152325
+PMID: 40510615
+---
+PMID: 40510342
+摘要: 1. Front Immunol. 2025 May 29;16:1591262. doi: 10.3389/fimmu.2025.1591262. 
+eCollection 2025.
+
+Diagnostic utility of IL-18 plasma levels in distinguishing abdominal from 
+non-abdominal sepsis.
+
+Herminghaus A(1), Totskyi M(1), Vollmer C(1), Dimski T(1), Brandenburger 
+T(1)(2), Kuebart A(1), Rinderknecht H(3), Bergmann CB(3), Vernikouskaya I(4), 
+Bülow JM(3), Becker N(3), Relja B(3).
+
+Author information:
+(1)Department of Anesthesiology, University Hospital Duesseldorf, Duesseldorf, 
+Germany.
+(2)Department of Anesthesia and Intensive Care Medicine, Acibadem Tashkent 
+International Medical Center, Tashkent, Uzbekistan.
+(3)Department of Trauma, Hand, Plastic and Reconstructive Surgery, Translational 
+and Experimental Trauma Research, Ulm University Medical Center, Ulm, Germany.
+(4)Department of Internal Medicine II, Ulm University Medical Center, Ulm, 
+Germany.
+
+BACKGROUND: Abdominal sepsis is a critical and high-risk condition in intensive 
+care, characterized by diagnostic challenges, complex treatment, and high 
+mortality. Non-specific symptoms and the difficulty of discriminating harmful 
+bacteria from the normal flora complicate a timely diagnosis and treatment. 
+Although timely interventions are crucial, the best timing of surgery remains 
+uncertain, especially in unstable patients. Diagnostic markers like C-reactive 
+protein, procalcitonin, and interleukins help guide diagnosis but often lack 
+specificity of an abdominal focus. This study aims to identify possible 
+additional markers for earlier detection of abdominal sepsis.
+METHODS: Plasma samples were collected from 47 sepsis patients at the day of 
+sepsis diagnosis, and from 10 healthy controls. Patients were retrospectively 
+categorized into those with abdominal (n=23) and those with non-abdominal (n=24) 
+sepsis. Patient`s characteristics, clinical outcomes, physiological and 
+laboratory parameters, and cytokine levels were assessed. Receiver operating 
+characteristic curves and Spearman correlation analyses were conducted.
+RESULTS: Age and sex proportions were comparable across the sepsis groups, as 
+were the chronic disease prevalence, the severity of illness and mortality 
+rates. Patients with abdominal sepsis were more likely to undergo emergency 
+surgeries. Pro-inflammatory cytokines like IL-6, MCP-1, and IL-18 were elevated, 
+as was the anti-inflammatory IL-10 in both sepsis cohorts compared to healthy 
+controls. IL-18 was particularly associated with a more severe inflammatory 
+response in non-abdominal sepsis. IL-18 levels below 1892.00 pg/mL showed 82.6% 
+sensitivity and 56.5% specificity for identifying patients with abdominal 
+sepsis, with a significant diagnostic accuracy (AUC 0.68, p = 0.034). This 
+suggests IL-18 as a useful additional moderate predictor for critical cases.
+CONCLUSION: The results demonstrate that IL-18, IL-6, MCP-1, and IL-10 are 
+increased in sepsis, while IL-18 may serve as an additional biomarker for 
+distinguishing abdominal from non-abdominal sepsis.
+
+Copyright © 2025 Herminghaus, Totskyi, Vollmer, Dimski, Brandenburger, Kuebart, 
+Rinderknecht, Bergmann, Vernikouskaya, Bülow, Becker and Relja.
+
+DOI: 10.3389/fimmu.2025.1591262
+PMCID: PMC12159074
+PMID: 40510342 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+---
+PMID: 40510101
+摘要: 1. Cureus. 2025 May 12;17(5):e83991. doi: 10.7759/cureus.83991. eCollection 2025 
+May.
+
+Comparison of Seven-Day Versus Continuous Prophylactic Antibiotic Therapy Until 
+Delivery in Preterm Premature Rupture of Membranes.
+
+Shabana Hameed G(1), Shirgur S(1), Patil M(2), Yaliwal RG(1), Patil N(1).
+
+Author information:
+(1)Obstetrics and Gynecology, Shri BM Patil Medical College Hospital and 
+Research Centre, Vijayapura, IND.
+(2)Pediatrics, Shri BM Patil Medical College Hospital and Research Centre, 
+Vijayapura, IND.
+
+Background and aim Preterm prelabour rupture of membranes (PPROM) refers to the 
+spontaneous rupture of fetal membranes before the onset of labor and prior to 37 
+completed weeks of gestation. PPROM is associated with significant maternal and 
+neonatal complications. Maternal risks include chorioamnionitis, abruptio 
+placentae, and postpartum infections. Neonatal complications commonly observed 
+are respiratory distress syndrome (RDS), neonatal sepsis, cerebral palsy, and 
+necrotizing enterocolitis (NEC). This study aimed to evaluate and compare 
+maternal and neonatal outcomes in women with PPROM treated with prophylactic 
+antibiotics for seven days versus antibiotics administered until delivery. 
+Materials and methods This comparative study included 110 pregnant women between 
+26 weeks 0 days and 36 weeks six days of gestation. Participants were divided 
+into the following two groups: group 1 received prophylactic antibiotics for 
+seven days, and group 2 received antibiotics until delivery. Data collected 
+included the duration of membrane rupture, types of antibiotics used, and 
+various maternal and neonatal outcomes. Results A significantly lower incidence 
+of persistent amniotic fluid leakage was observed in group 1 (31; 56.4%) 
+compared to group 2 (45; 81.8%) (p<0.002). Continuous positive airway pressure 
+(CPAP) support was not required in 41 (74.5%) of neonates in group 1 and 40 
+(72.7%) in group 2. However, a significantly higher proportion of neonates in 
+group 2 required high-flow nasal cannula (HFNC) support compared to group 1 
+(p=0.015). Additionally, a shorter neonatal hospital stay (one to three days) 
+was more frequent in group 1 (29; 52.7%) than in group 2 (17; 30.9%) (p=0.048). 
+Conclusion A seven-day course of prophylactic antibiotics in PPROM is as 
+effective as continuous antibiotic therapy until delivery, with added benefits 
+of reduced neonatal hospital stay and potentially fewer antibiotic-associated 
+risks.
+
+Copyright © 2025, Shabana Hameed et al.
+
+DOI: 10.7759/cureus.83991
+PMCID: PMC12159500
+PMID: 40510101
+
+Conflict of interest statement: Human subjects: Consent for treatment and open 
+access publication was obtained or waived by all participants in this study. 
+Institutional Ethics Committee, Bijapur Lingayat District Educational (BLDE) 
+(Deemed to be University) issued approval IEC/893/2022-23. Animal subjects: All 
+authors have confirmed that this study did not involve animal subjects or 
+tissue. Conflicts of interest: In compliance with the ICMJE uniform disclosure 
+form, all authors declare the following: Payment/services info: All authors have 
+declared that no financial support was received from any organization for the 
+submitted work. Financial relationships: All authors have declared that they 
+have no financial relationships at present or within the previous three years 
+with any organizations that might have an interest in the submitted work. Other 
+relationships: All authors have declared that there are no other relationships 
+or activities that could appear to have influenced the submitted work.
+---
+"
+12263,3723755388,1655082831,2127-08-14 22:32:00,2127-08-28 18:59:00,2127-08-28 18:59:00,EMERGENCY,1,1,570; 07030; 07054; 30401; 2875; 2760,9915; 3893,,"```json
+{
+  ""admission_time"": ""2127-08-14 22:32:00"",
+  ""discharge_time"": ""2127-08-28 18:59:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""570"", ""07030"", ""07054"", ""30401"", ""2875"", ""2760""],
+  ""main_procedure_icd9"": [""9915"", ""3893""],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""curative_effect"": """",
+  ""medication_record"": ""nan"",
+  ""discharge_summary"": """"
+}
+```","```json
+{
+  ""admission_time"": ""2127-08-14 22:32:00"",
+  ""discharge_time"": ""2127-08-28 18:59:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""570"", ""07030"", ""07054"", ""30401"", ""2875"", ""2760""],
+  ""main_procedure_icd9"": [""9915"", ""3893""],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""curative_effect"": """",
+  ""medication_record"": ""nan"",
+  ""discharge_summary"": """"
+}
+```
+
+【相关文献补充】
+PMID: 40495496
+摘要: 1. Arch Esp Urol. 2025 May;78(4):407-413. doi: 
+10.56434/j.arch.esp.urol.20257804.54.
+
+Comparison of Surgical Outcomes for Bladder Stones in Geriatric Patients: Open 
+Cystolithotomy, Percutaneous and Transurethral Cystolithotripsy Techniques.
+
+Tunçekin A(1)(2), Karadeniz MN(1), Yağmur İ(1), Demir M(1), Pelit ES(1), Katı 
+B(1), Çiftçi H(1).
+
+Author information:
+(1)Department of Urology, Faculty of Medicine, Harran University, 63100 
+Şanlıurfa, Turkey.
+(2)Department of Urology, Faculty of Medicine, Uşak University, 64200 Uşak, 
+Turkey.
+
+BACKGROUND: Bladder stones feature multifactorial aetiologies, including bladder 
+outlet obstruction, metabolic or genetic disorders and environmental factors. 
+Bladder calculi occur in approximately 5% of urinary system stones. In addition, 
+giant urinary bladder stones are commonly observed in geriatric patients. This 
+study aimed to compare and evaluate the outcomes of open cystolithotomy, 
+percutaneous and transurethral cystolithotripsy techniques in the surgical 
+treatment of bladder stones in geriatric patients.
+METHODS: The primary observation metrics comprised stone clearance rate and 
+symptom resolution, and the secondary metrics included complications and 
+recovery time. This study aimed to identify the most suitable technique for this 
+patient group. The medical records of patients who underwent bladder stone 
+surgery between January 2010 and January 2021 were retrospectively reviewed. 
+Geriatric patients aged 65 years and older who had undergone bladder stone 
+surgery were included in this work.
+RESULTS: Of the patients, 72 were male, and 4 were female, with a mean age of 
+72.6 years (range: 65-89). The average stone size was 39.7 × 29.4 mm. Surgical 
+procedures consisted of open suprapubic cystolithotomy in 31 patients, 
+percutaneous cystolithotripsy in 17 patients and transurethral cystolithotripsy 
+in 28 patients. The stone-free rates were 85.7% for the transurethral 
+cystolithotripsy group and 100% for the open cystolithotomy and percutaneous 
+cystolithotripsy groups (p > 0.05). Symptom resolution occurred in 94.7% of 
+cases. No statistically significant differences were observed in the 
+complication rates among the three groups (p > 0.05), with early complications 
+including haematuria (3.9%) and residual stones (2.6%) and late complications 
+comprising fever (1.3%) and urethral stricture (1.3%). The mean hospital stay 
+was 4.3 ± 2.1 days, with no significant differences among groups (p = 0.071). In 
+addition, benign prostatic hyperplasia was present in 84% of male patients, and 
+other conditions included ureteral stones (4 patients), a right-sided hydrocele 
+(1 patient) and a vesicovaginal fistula (1 patient).
+CONCLUSIONS: All three techniques-open cystolithotomy, percutaneous 
+cystolithotripsy and transurethral cystolithotripsy-can be safely performed in 
+the surgical treatment of bladder stones in geriatric patients. However, 
+large-scale population studies are required to determine the optimal technique.
+
+© 2025 The Author(s).
+
+DOI: 10.56434/j.arch.esp.urol.20257804.54
+PMID: 40495496 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+---
+PMID: 40137940
+摘要: 1. Dermatologie (Heidelb). 2025 May;76(5):289-299. doi:
+10.1007/s00105-025-05488-y.  Epub 2025 Mar 26.
+
+[Ingrown toenail: when and how to treat?].
+
+[Article in German; Abstract available in German from the publisher]
+
+Giordano-Rosenbaum A(1), Balakirski G(2), Schneider SW(1), Löser CR(3).
+
+Author information:
+(1)Klinik und Poliklinik für Dermatologie und Venerologie, Universitätsklinikum 
+Hamburg-Eppendorf, Hamburg, Deutschland.
+(2)Zentrum für Dermatologie, Allergologie und Dermatochirurgie, Helios 
+Universitätsklinikum Wuppertal, Universität Witten/Herdecke, Wuppertal, 
+Deutschland. galina.balakirski@helios-gesundheit.de.
+(3)Hautklinik, Hauttumorzentrum, Klinikum der Stadt Ludwigshafen am Rhein gGmbH, 
+Ludwigshafen, Deutschland.
+
+With an estimated prevalence of 2.5-5% of the western population, ingrown 
+toenails are one of the most common nail diseases that leads patients to general 
+physicians as well as to dermatological or surgical clinics. The cause of the 
+disease is multifactorial, including genetic predisposition with a too wide nail 
+plate, but also incorrect cutting of the nail and wearing of too tight shoes. 
+Penetration of the sharp, lateral edge of the nail plate into the tissue results 
+in inflammatory irritation of the lateral nail wall. The extent of the 
+inflammation does not necessarily correlate with subjective symptoms, so that 
+patients may describe severe pain even with low levels of inflammation. The big 
+toe is most frequently affected. Several treatment approaches are available. 
+Podiatric treatment such as tamponades or sulci protectors can improve the 
+symptoms in mild cases. Surgical treatment primarily involves chemical 
+matrixectomy (e.g., using phenol) or mechanical resection of the lateral matrix 
+horn. The use of traumatic surgical techniques such as the so-called ""Emmert 
+plasty"" or wedge excisions is not recommended.
+
+Publisher: Mit einer geschätzten Prävalenz von 2,5–5 % der westlichen 
+Gesamtbevölkerung stellt der eingewachsene Zehennagel eine der häufigsten 
+Nagelerkrankungen dar, die Betroffene in dermatologische, aber auch 
+allgemeinmedizinische oder chirurgische Praxen führt. Die Genese der Erkrankung 
+ist multifaktoriell, hier spielen unter anderem die genetische Veranlagung mit 
+einer zu breit angelegten Nagelplatte, fehlerhaftes Schneiden des Nagels und zu 
+enges Schuhwerk eine Rolle. Das Eindringen der scharfen, seitlichen Kante der 
+Nagelplatte in das Gewebe resultiert in einer entzündlichen Reizung des 
+Nagelwalls. Dabei korreliert das Ausmaß der Entzündung nicht unbedingt mit 
+subjektiven Beschwerden, sodass auch bei geringer Inflammation starke Schmerzen 
+beschrieben werden. Am häufigsten ist der Großzehe betroffen. Es liegen mehrere 
+Behandlungsansätze vor. Podologische Behandlung wie Entlastungsschnitt, 
+Tamponaden oder Schienung können bei mildem Befund eine Linderung der Symptome 
+bringen. Operativ wird primär eine chemische Verödung (z. B. mittels 
+Phenolkaustik) oder eine mechanische Resektion des seitlichen Matrixhorns 
+durchgeführt. Von der Anwendung traumatischer Operationstechniken 
+(beispielsweise sog. „Emmert-Plastik“) wird abgeraten.
+
+© 2025. The Author(s), under exclusive licence to Springer Medizin Verlag GmbH, 
+ein Teil von Springer Nature.
+
+DOI: 10.1007/s00105-025-05488-y
+PMID: 40137940 [Indexed for MEDLINE]
+
+Conflict of interest statement: Einhaltung ethischer Richtlinien. 
+Interessenkonflikt: A. Giordano-Rosenbaum, G. Balakirski, S.W. Schneider und 
+C.R. Löser geben an, dass kein Interessenkonflikt besteht. Für diesen Beitrag 
+wurden von den Autor/-innen keine Studien an Menschen oder Tieren durchgeführt. 
+Für die aufgeführten Studien gelten die jeweils dort angegebenen ethischen 
+Richtlinien. Für Bildmaterial oder anderweitige Angaben innerhalb des 
+Manuskripts, über die Patient/-innen zu identifizieren sind, liegt von ihnen 
+und/oder ihren gesetzlichen Vertretern/Vertreterinnen eine schriftliche 
+Einwilligung vor.
+---
+PMID: 40205468
+摘要: 1. J Orthop Surg Res. 2025 Apr 10;20(1):361. doi: 10.1186/s13018-025-05677-4.
+
+Modified Winograd technique versus partial resection with electrocoagulation for 
+surgical management of ingrown toenails.
+
+Kocak S(1), Ozyalcin A(2).
+
+Author information:
+(1)Department of Orthopaedic and Traumatology, Kanuni Sultan Suleyman Training 
+and Research Hospital, University of Health Sciences, Istanbul, Turkey. 
+dr.sonerkocak@gmail.com.
+(2)Department of Orthopaedic and Traumatology, Kanuni Sultan Suleyman Training 
+and Research Hospital, University of Health Sciences, Istanbul, Turkey.
+
+BACKGROUND: Ingrown toenails significantly impact quality of life. This study 
+compares the clinical outcomes of the modified Winograd method versus partial 
+resection with matrix electrocoagulation. We hypothesize that electrocoagulation 
+will result in lower recurrence rates, shorter recovery times, and higher 
+patient satisfaction compared to the modified Winograd method.
+METHODS: We analyzed data from 132 patients who underwent surgery at our 
+hospital between January 2016 and January 2023. The patients were divided into 
+two groups: Group A (69 patients), who underwent the modified Winograd 
+procedure, and Group B (63 patients), who received partial nail excision with 
+matrix electrocoagulation. We compared recurrence rates, recovery times, patient 
+satisfaction, types and frequencies of complications, and VAS pain scores. 
+Statistical analysis was performed using the t-test and chi-square test.
+RESULTS: Recurrence rates were 15% in Group A and 10% in Group B (p = 0.251). 
+Infection rates were 10% in Group A and 8% in Group B (p = 0.459). The average 
+recovery time was 11 days for Group A (range: 5-21 days) and 9 days for Group B 
+(range: 5-20 days) (t = 2.81, p = 0.006). Postoperative VAS scores decreased 
+significantly, with Group B showing a greater reduction in pain (t = 3.18, 
+p = 0.002). Patient satisfaction was higher in Group B, though the difference 
+was not statistically significant (Chi-square = 6.45, p = 0.091).
+CONCLUSION: The modified Winograd method remains effective, with high 
+satisfaction and low recurrence rates. However, partial nail resection with 
+matrix electrocoagulation offers shorter recovery times and greater pain 
+reduction.
+LEVEL OF EVIDENCE III: Retrospective comparative study.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s13018-025-05677-4
+PMCID: PMC11983720
+PMID: 40205468 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and informed 
+consent: The study adhered to the ethical principles outlined in the Declaration 
+of Helsinki (1964). Approval was obtained from the Ethics Committee of Kanuni 
+Sultan Suleyman Training and Research Hospital, Istanbul University of Health 
+Sciences. Informed consent was obtained from all participants in the form of 
+written consent. Informed consent was obtained from all participants prior to 
+the collection of clinical and photographic data. Additionally, consent for the 
+publication of personal data was secured before drafting the manuscript. 
+Competing interests: The authors declare no competing interests. Artificial 
+intelligence: No artificial intelligence was used for the writing of the 
+submitted work.
+---
+"
+12265,1382346730,4223055540,2126-10-04 23:36:00,2126-10-07 15:13:00,2126-10-07 15:13:00,EMERGENCY,1,1,0389; 41071; 78551; 486; 42731; 20280; 4240; 4582; 2724,3891,Furosemide; Azithromycin; Azithromycin; Acetaminophen; Nitroglycerin SL; Aspirin; Alteplase (Catheter Clearance); Magnesium Sulfate; Ipratropium Bromide Neb; Alteplase (Catheter Clearance); Morphine Sulfate; Ipratropium Bromide Neb; Heparin Sodium; Ceftriaxone; Dobutamine; DopAmine; Nesiritide; Pantoprazole Sodium; Phenylephrine HCl; DopAmine; Vasopressin; Morphine Sulfate; Vasopressin; Morphine Sulfate; D5W; Iso-Osmotic Dextrose; D5W; D5W; D5W; NS; D5W; D5W; D5W; D5W; D5W; D5W,"```json
+{
+  ""admission_time"": ""2126-10-04 23:36:00"",
+  ""discharge_time"": ""2126-10-07 15:13:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""admission_department"": ""EMERGENCY"",
+  ""main_diagnosis_icd9"": [
+    ""0389"",
+    ""41071"",
+    ""78551"",
+    ""486"",
+    ""42731"",
+    ""20280"",
+    ""4240"",
+    ""4582"",
+    ""2724""
+  ],
+  ""main_procedure_icd9"": [
+    ""3891""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Furosemide"",
+    ""Azithromycin"",
+    ""Azithromycin"",
+    ""Acetaminophen"",
+    ""Nitroglycerin SL"",
+    ""Aspirin"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Magnesium Sulfate"",
+    ""Ipratropium Bromide Neb"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Morphine Sulfate"",
+    ""Ipratropium Bromide Neb"",
+    ""Heparin Sodium"",
+    ""Ceftriaxone"",
+    ""Dobutamine"",
+    ""DopAmine"",
+    ""Nesiritide"",
+    ""Pantoprazole Sodium"",
+    ""Phenylephrine HCl"",
+    ""DopAmine"",
+    ""Vasopressin"",
+    ""Morphine Sulfate"",
+    ""Vasopressin"",
+    ""Morphine Sulfate"",
+    ""D5W"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W""
+  ]
+}
+```","```json
+{
+  ""admission_time"": ""2126-10-04 23:36:00"",
+  ""discharge_time"": ""2126-10-07 15:13:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""admission_department"": ""EMERGENCY"",
+  ""main_diagnosis_icd9"": [
+    ""0389"",
+    ""41071"",
+    ""78551"",
+    ""486"",
+    ""42731"",
+    ""20280"",
+    ""4240"",
+    ""4582"",
+    ""2724""
+  ],
+  ""main_procedure_icd9"": [
+    ""3891""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Furosemide"",
+    ""Azithromycin"",
+    ""Azithromycin"",
+    ""Acetaminophen"",
+    ""Nitroglycerin SL"",
+    ""Aspirin"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Magnesium Sulfate"",
+    ""Ipratropium Bromide Neb"",
+    ""Alteplase (Catheter Clearance)"",
+    ""Morphine Sulfate"",
+    ""Ipratropium Bromide Neb"",
+    ""Heparin Sodium"",
+    ""Ceftriaxone"",
+    ""Dobutamine"",
+    ""DopAmine"",
+    ""Nesiritide"",
+    ""Pantoprazole Sodium"",
+    ""Phenylephrine HCl"",
+    ""DopAmine"",
+    ""Vasopressin"",
+    ""Morphine Sulfate"",
+    ""Vasopressin"",
+    ""Morphine Sulfate"",
+    ""D5W"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W""
+  ]
+}
+```
+
+【相关文献补充】
+PMID: 40511267
+摘要: 1. Trauma Case Rep. 2025 May 26;58:101204. doi: 10.1016/j.tcr.2025.101204. 
+eCollection 2025 Aug.
+
+Hypertrophic cardiomyopathy in the trauma patient: A case report and review of 
+the literature.
+
+Hendrix A(1), Crafton T(2), Carlyle L(3), Hessey J(4).
+
+Author information:
+(1)University of South Carolina School of Medicine, 6311 Garners Ferry Road, 
+Columbia, SC 29209, USA.
+(2)Prisma Health Midlands, Department of General Surgery, 2 Medical Park Rd Ste 
+300, Columbia, SC 29203, USA.
+(3)Prisma Health Midlands, Department of Internal Medicine, 2 Medical Park Rd 
+Ste 203, Columbia, SC 29203, USA.
+(4)Prisma Health Midlands, Department of Trauma Surgery, 2 Medical Park Rd Ste 
+300, Columbia, SC 29203, USA.
+
+INTRODUCTION: Hypertrophic cardiomyopathy (HCM), a prevalent genetic cardiac 
+condition characterized by myocardial thickening, poses unique challenges in 
+trauma care. Sparse evidence seems to agree that HCM patients have worse 
+outcomes following non-cardiac surgeries, particularly emergent procedures. 
+However, despite a prevalence of 1 in 500 in the US population, the intersection 
+of HCM and Advanced Trauma Life Support (ATLS) remains undiscussed in current 
+literature.
+CASE PRESENTATION: A 54-year-old female with unknown past medical history 
+presented as a level 2 trauma alert following a motor vehicle collision. Due to 
+persistent hypotension and transient bradycardia in the trauma bay a further 
+cardiologic evaluation was performed and found severe hypertrophic obstructive 
+cardiomyopathy (HOCM).
+CLINICAL DISCUSSION: We report a case of a polytrauma patient found to have 
+severe HOCM as well as provide a review of the literature including 
+pathophysiological considerations in the management of the trauma patient with 
+HCM.
+CONCLUSIONS: Caring for the trauma patient with HCM requires a multidisciplinary 
+strategy that integrates advanced cardiac imaging and cautious hemodynamic 
+management, underlining the necessity for heightened awareness.
+
+© 2025 The Author(s).
+
+DOI: 10.1016/j.tcr.2025.101204
+PMCID: PMC12158599
+PMID: 40511267
+
+Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper.
+---
+PMID: 40507773
+摘要: 1. J Clin Med. 2025 Jun 5;14(11):4011. doi: 10.3390/jcm14114011.
+
+The Hungry Heart: Managing Cardiogenic Shock in Patients with Severe Anorexia 
+Nervosa-A Case Report Series.
+
+Thienel M(1)(2), Kaiser R(1)(2), Gmeiner J(1), Orban M(1)(3), Kääb S(1)(2), 
+Petzold T(4)(5)(6), Massberg S(1)(2), Scherer C(1)(2).
+
+Author information:
+(1)Department of Cardiology, Ludwig-Maximilians-University Hospital, Ludwig 
+Maximilians University, 81377 Munich, Germany.
+(2)DZHK (German Centre for Cardiovascular Research), Partner Site Munich Heart 
+Alliance, 80336 Munich, Germany.
+(3)Kardiologie Ammer-Lech, 86911 Dießen am Ammersee, Germany.
+(4)Department of Cardiology, Angiology and Intensive Care Medicine, Deutsches 
+Herzzentrum der Charité, University Hospital Berlin, Campus Benjamin Franklin, 
+12203 Berlin, Germany.
+(5)DZHK (German Centre for Cardiovascular Research), Partner Site Berlin, 10785 
+Berlin, Germany.
+(6)Friede Springer, Centre of Cardiovascular Prevention at Charité, Charité 
+University Medicine Berlin, 12203 Berlin, Germany.
+
+Background: Cardiogenic shock is a life-threatening condition characterized by 
+the failure of the heart to maintain adequate circulation, leading to 
+multi-organ dysfunction. While it is most commonly associated with acute 
+myocardial infarction or cardiomyopathies, cardiogenic shock can also arise in 
+unusual settings, such as severe malnutrition in patients with anorexia nervosa, 
+a psychiatric disorder characterized by extreme restriction of food intake. 
+Methods: Here, we describe the management of three patients with anorexia 
+nervosa and severe cardiogenic shock, who were treated in our cardiological 
+intensive care unit between December 2022 and January 2025. Two patients were 
+successfully resuscitated after experiencing cardiac arrest, and two required 
+mechanical circulatory support, including Venoarterial Extracorporeal Membrane 
+Oxygenation and microaxial flow pump. The patients presented with a range of 
+complications including multi-organ failure and respiratory distress. Due to the 
+fragile balance between intensive cardiac and nutritional management, as well as 
+the comorbidity of chronic malnutrition, therapeutic decisions were made 
+carefully, including cautious electrolyte management, targeted nutritional 
+therapy, and the use of advanced circulatory support. Conclusions: The treatment 
+approach and beneficious outcomes underline the necessity of a multidisciplinary 
+strategy in managing these critically ill patients with complex, interwoven 
+pathologies. Our experience suggests that early recognition of cardiogenic shock 
+and timely intervention with mechanical circulatory support may significantly 
+improve patient survival in this high-risk cohort. Careful management of 
+nutritional therapy and supplementation of trace elements and vitamins is 
+crucial.
+
+DOI: 10.3390/jcm14114011
+PMID: 40507773
+---
+PMID: 40507459
+摘要: 1. J Clin Med. 2025 May 25;14(11):3698. doi: 10.3390/jcm14113698.
+
+AI-Based Predictive Models for Cardiogenic Shock in STEMI: Real-World Data for 
+Early Risk Assessment and Prognostic Insights.
+
+Stamate E(1), Culea-Florescu AL(2), Miron M(3), Piraianu AI(1), Dumitrascu 
+AG(4), Fulga I(5), Fulga A(6), Patrascanu OS(7), Iancu D(7), Ciobotaru OC(6), 
+Ciobotaru OR(8).
+
+Author information:
+(1)Department of Morphological and Functional Sciences, Faculty of Medicine and 
+Pharmacy, ""Dunarea de Jos"" University of Galati, 35, Al. I. Cuza Street, 800216 
+Galati, Romania.
+(2)Department of Electronics and Telecommunications, ""Dunarea de Jos"" University 
+of Galați, 800008 Galati, Romania.
+(3)Department of Computer Science and Information Technology, ""Dunarea de Jos"" 
+University of Galați, 800008 Galati, Romania.
+(4)Division of Hospital Internal Medicine, Department of Medicine, Mayo Clinic 
+Florida, 4500 San Pablo Rd S, Jacksonville, FL 32224, USA.
+(5)Department of Medical, Faculty of Medicine and Pharmacy, ""Dunarea de Jos"" 
+University of Galati, 35, Al. I. Cuza Street, 800216 Galati, Romania.
+(6)Department of Clinical Surgical, Faculty of Medicine and Pharmacy, ""Dunarea 
+de Jos"" University of Galati, 35, Al. I. Cuza Street, 800216 Galati, Romania.
+(7)Faculty of Medicine and Pharmacy, Dunarea de Jos University of Galati, 35 AL 
+Cuza St, 800010 Galati, Romania.
+(8)Department of Clinical Medical, Faculty of Medicine and Pharmacy, ""Dunarea de 
+Jos"" University of Galati, 35, Al. I. Cuza Street, 800216 Galati, Romania.
+
+Background: Cardiogenic shock (CS) is a life-threatening complication of 
+ST-elevation myocardial infarction (STEMI) and remains the leading cause of 
+in-hospital mortality, with rates ranging from 5 to 10% despite advances in 
+reperfusion strategies. Early identification and timely intervention are 
+critical for improving outcomes. This study investigates the utility of machine 
+learning (ML) models for predicting the risk of CS during the early phases of 
+care-prehospital, emergency department (ED), and cardiology-on-call-with a focus 
+on accurate triage and prioritization for urgent angiography. Results: In the 
+prehospital phase, the Extra Trees classifier demonstrated the highest overall 
+performance. It achieved an accuracy (ACC) of 0.9062, precision of 0.9078, 
+recall of 0.9062, F1-score of 0.9061, and Matthews correlation coefficient (MCC) 
+of 0.8140, indicating both high predictive power and strong generalization. In 
+the ED phase, the support vector machine model outperformed others with an ACC 
+of 78.12%. During the cardiology-on-call phase, Random Forest showed the best 
+performance with an ACC of 81.25% and consistent values across other metrics. 
+Quadratic discriminant analysis showed consistent and generalizable performance 
+across all early care stages. Key predictive features included the Killip class, 
+ECG rhythm, creatinine, potassium, and markers of renal dysfunction-parameters 
+readily available in routine emergency settings. The greatest clinical utility 
+was observed in prehospital and ED phases, where ML models could support the 
+early identification of critically ill patients and could prioritize coronary 
+catheterization, especially important for centers with limited capacity for 
+angiography. Conclusions: Machine learning-based predictive models offer a 
+valuable tool for early risk stratification in STEMI patients at risk for 
+cardiogenic shock. These findings support the implementation of ML-driven tools 
+in early STEMI care pathways, potentially improving survival through faster and 
+more accurate decision-making, especially in time-sensitive clinical 
+environments.
+
+DOI: 10.3390/jcm14113698
+PMID: 40507459
+---
+"
+12269,1917446489,778322948,2150-05-26 17:19:00,2150-06-03 18:42:00,,EMERGENCY,0,1,81201; 4928; 8028; 8024; 99812; 41511; 2851; 486; E8859; 25000; E8788; V1259; 2724; 4019,8181; 9904,Hydromorphone; Hydromorphone; Sodium Chloride 0.9%  Flush; NIFEdipine CR; Atorvastatin; Furosemide; Heparin; Metoprolol; Insulin; Hydromorphone; GlipiZIDE; Pioglitazone HCl; Hydromorphone; Cefazolin; Levofloxacin; Metronidazole; Vancomycin HCl; Magnesium Sulfate; Potassium Chloride; Heparin Sodium; Potassium Chloride; Dolasetron Mesylate; Morphine Sulfate; Insulin; Insulin; Acetaminophen; Insulin; Insulin; Sodium Chloride 0.9%  Flush; Morphine Sulfate; GlipiZIDE; Insulin; Insulin; Hydromorphone; Hydromorphone; Albuterol 0.083% Neb Soln; Ipratropium Bromide Neb; Oxycodone-Acetaminophen; Metoprolol; Albuterol 0.083% Neb Soln; Ipratropium Bromide Neb; Furosemide; Haloperidol; Insulin; Insulin; Haloperidol; Sodium Chloride 0.9%  Flush; Albuterol 0.083% Neb Soln; Albuterol; Albuterol 0.083% Neb Soln; Prednisone; Ipratropium Bromide MDI; Folic Acid; Thiamine HCl; Cyanocobalamin; Quetiapine Fumarate; Multivitamins; Olanzapine (Disintegrating Tablet); Haloperidol; Lorazepam; Ipratropium Bromide Neb; Albuterol 0.083% Neb Soln; Neutra-Phos; Oxycodone-Acetaminophen; Neutra-Phos; Sodium Chloride 0.9%  Flush; Insulin; Insulin; Pantoprazole; Potassium Chloride; Potassium Chloride; Warfarin; Fluticasone-Salmeterol (250/50) ; Albuterol-Ipratropium; Albuterol 0.083% Neb Soln; Ipratropium Bromide Neb; traZODONE HCl; Oxycodone; Acetaminophen; Docusate Sodium; Senna; Insulin; Insulin; Cephalexin; Bisacodyl; Insulin; Insulin; 1/2 NS; NS; D5 1/2NS; D5 1/2NS; NS; NS; NS; NS; Dextrose 5%; NS; Iso-Osmotic Dextrose; NS; NS; D5W; NS; D5 1/2NS; Potassium Chl 40 mEq / 1000 mL D5 1/2 NS; Potassium Chl 40 mEq / 1000 mL D5 1/2 NS,"```json
+{
+  ""admission_time"": ""2150-05-26 17:19:00"",
+  ""discharge_time"": ""2150-06-03 18:42:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""81201"",
+    ""4928"",
+    ""8028"",
+    ""8024"",
+    ""99812"",
+    ""41511"",
+    ""2851"",
+    ""486"",
+    ""E8859"",
+    ""25000"",
+    ""E8788"",
+    ""V1259"",
+    ""2724"",
+    ""4019""
+  ],
+  ""main_procedure_icd9"": [
+    ""8181"",
+    ""9904""
+  ],
+  ""medication_records"": [
+    ""Hydromorphone"",
+    ""Hydromorphone"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""NIFEdipine CR"",
+    ""Atorvastatin"",
+    ""Furosemide"",
+    ""Heparin"",
+    ""Metoprolol"",
+    ""Insulin"",
+    ""Hydromorphone"",
+    ""GlipiZIDE"",
+    ""Pioglitazone HCl"",
+    ""Hydromorphone"",
+    ""Cefazolin"",
+    ""Levofloxacin"",
+    ""Metronidazole"",
+    ""Vancomycin HCl"",
+    ""Magnesium Sulfate"",
+    ""Potassium Chloride"",
+    ""Heparin Sodium"",
+    ""Potassium Chloride"",
+    ""Dolasetron Mesylate"",
+    ""Morphine Sulfate"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Acetaminophen"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Morphine Sulfate"",
+    ""GlipiZIDE"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Hydromorphone"",
+    ""Hydromorphone"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""Oxycodone-Acetaminophen"",
+    ""Metoprolol"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""Furosemide"",
+    ""Haloperidol"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Haloperidol"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Albuterol"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Prednisone"",
+    ""Ipratropium Bromide MDI"",
+    ""Folic Acid"",
+    ""Thiamine HCl"",
+    ""Cyanocobalamin"",
+    ""Quetiapine Fumarate"",
+    ""Multivitamins"",
+    ""Olanzapine (Disintegrating Tablet)"",
+    ""Haloperidol"",
+    ""Lorazepam"",
+    ""Ipratropium Bromide Neb"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Neutra-Phos"",
+    ""Oxycodone-Acetaminophen"",
+    ""Neutra-Phos"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Pantoprazole"",
+    ""Potassium Chloride"",
+    ""Potassium Chloride"",
+    ""Warfarin"",
+    ""Fluticasone-Salmeterol (250/50)"",
+    ""Albuterol-Ipratropium"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""traZODONE HCl"",
+    ""Oxycodone"",
+    ""Acetaminophen"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Cephalexin"",
+    ""Bisacodyl"",
+    ""Insulin"",
+    ""Insulin"",
+    ""1/2 NS"",
+    ""NS"",
+    ""D5 1/2NS"",
+    ""D5 1/2NS"",
+    ""NS"",
+    ""NS"",
+    ""NS"",
+    ""NS"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5 1/2NS"",
+    ""Potassium Chl 40 mEq / 1000 mL D5 1/2 NS","```json
+{
+  ""admission_time"": ""2150-05-26 17:19:00"",
+  ""discharge_time"": ""2150-06-03 18:42:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""81201"",
+    ""4928"",
+    ""8028"",
+    ""8024"",
+    ""99812"",
+    ""41511"",
+    ""2851"",
+    ""486"",
+    ""E8859"",
+    ""25000"",
+    ""E8788"",
+    ""V1259"",
+    ""2724"",
+    ""4019""
+  ],
+  ""main_procedure_icd9"": [
+    ""8181"",
+    ""9904""
+  ],
+  ""medication_records"": [
+    ""Hydromorphone"",
+    ""Hydromorphone"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""NIFEdipine CR"",
+    ""Atorvastatin"",
+    ""Furosemide"",
+    ""Heparin"",
+    ""Metoprolol"",
+    ""Insulin"",
+    ""Hydromorphone"",
+    ""GlipiZIDE"",
+    ""Pioglitazone HCl"",
+    ""Hydromorphone"",
+    ""Cefazolin"",
+    ""Levofloxacin"",
+    ""Metronidazole"",
+    ""Vancomycin HCl"",
+    ""Magnesium Sulfate"",
+    ""Potassium Chloride"",
+    ""Heparin Sodium"",
+    ""Potassium Chloride"",
+    ""Dolasetron Mesylate"",
+    ""Morphine Sulfate"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Acetaminophen"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Morphine Sulfate"",
+    ""GlipiZIDE"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Hydromorphone"",
+    ""Hydromorphone"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""Oxycodone-Acetaminophen"",
+    ""Metoprolol"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""Furosemide"",
+    ""Haloperidol"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Haloperidol"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Albuterol"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Prednisone"",
+    ""Ipratropium Bromide MDI"",
+    ""Folic Acid"",
+    ""Thiamine HCl"",
+    ""Cyanocobalamin"",
+    ""Quetiapine Fumarate"",
+    ""Multivitamins"",
+    ""Olanzapine (Disintegrating Tablet)"",
+    ""Haloperidol"",
+    ""Lorazepam"",
+    ""Ipratropium Bromide Neb"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Neutra-Phos"",
+    ""Oxycodone-Acetaminophen"",
+    ""Neutra-Phos"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Pantoprazole"",
+    ""Potassium Chloride"",
+    ""Potassium Chloride"",
+    ""Warfarin"",
+    ""Fluticasone-Salmeterol (250/50)"",
+    ""Albuterol-Ipratropium"",
+    ""Albuterol 0.083% Neb Soln"",
+    ""Ipratropium Bromide Neb"",
+    ""traZODONE HCl"",
+    ""Oxycodone"",
+    ""Acetaminophen"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Insulin"",
+    ""Insulin"",
+    ""Cephalexin"",
+    ""Bisacodyl"",
+    ""Insulin"",
+    ""Insulin"",
+    ""1/2 NS"",
+    ""NS"",
+    ""D5 1/2NS"",
+    ""D5 1/2NS"",
+    ""NS"",
+    ""NS"",
+    ""NS"",
+    ""NS"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5 1/2NS"",
+    ""Potassium Chl 40 mEq / 1000 mL D5 1/2 NS
+
+【相关文献补充】
+PMID: 40492589
+摘要: 1. J Int Med Res. 2025 Jun;53(6):3000605251340529. doi:
+10.1177/03000605251340529.  Epub 2025 Jun 10.
+
+A case of portal venous gas caused by the use of a nasojejunal nutrition tube.
+
+Liu Y(1)(2), Li Y(2)(3), Zhu C(2), Liu H(1), Huang J(4).
+
+Author information:
+(1)Department of Gastroenterology, Xinfeng People's Hospital, China.
+(2)Department of Gastroenterology, Ganzhou People's Hospital, China.
+(3)Nanchang University Affiliated Ganzhou Hospital, China.
+(4)Department of Traditional Chinese Medicine, Ganzhou People's Hospital, China.
+
+We reported a case of portal vein pneumatosis caused by a nasojejunal nutrition 
+tube that was successfully treated conservatively. This patient was discharged 
+after 1 week of treatment with imipenem/cilastatin sodium for anti-infection, 
+gastrointestinal decompression, fluid replacement, and pain relief, and the 
+patient's abdominal pain was significantly relieved. The main pathogenesis of 
+hepatic portal venous gas is as follows: (a) increased pressure in the digestive 
+tract leading to gas entering the portal vein circulation through the intestinal 
+wall and finally into the liver; (b) destruction of the intestinal mucosa 
+causing the gas formed by intestinal bacteria to enter the portal vein system; 
+and (c) diffusion of gas produced by bacteria in intraperitoneal abscesses or 
+portal vein and mesentery, causing pyelitis. The successful treatment of this 
+patient highlights that addressing physical factors, providing gastrointestinal 
+decompression, and administering anti-infection therapy can aid in the 
+management of such cases. Bacterial culture of gastric juice and drug 
+sensitivity testing can guide effective anti-infection treatment.
+
+DOI: 10.1177/03000605251340529
+PMCID: PMC12152395
+PMID: 40492589 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of conflicting interestsWe declare 
+that we have no financial or personal relationships with other people or 
+organizations that can inappropriately influence our work. Furthermore, there is 
+no professional or other personal interest of any kind in any product, service, 
+and/or company that could be construed as influencing the results of this case 
+report.
+---
+PMID: 40498987
+摘要: 1. Chron Respir Dis. 2025 Jan-Dec;22:14799731251350709. doi: 
+10.1177/14799731251350709. Epub 2025 Jun 11.
+
+Comparative analysis of pulmonary function decline in patients undergoing 
+bronchoscopic lung volume reduction with endobronchial valves versus 
+conservative treatment in emphysema management: A longitudinal coarsened exact 
+matched analysis.
+
+Wienker J(1), Darwiche K(1), Karpf-Wissel R(1), Westhölter D(2), Büscher E(1), 
+Zensen S(3), Haubold J(3), Kersting D(4), Hautzel H(4), Homola J(1), Taube C(2), 
+Opitz M(3), Struß M(1).
+
+Author information:
+(1)Department of Pulmonary Medicine, Division of Interventional Pneumology, 
+University Medicine Essen-Ruhrlandklinik, Essen, Germany.
+(2)Department of Pulmonary Medicine, University Medicine Essen-Ruhrlandklinik, 
+Essen, Germany.
+(3)Institute of Diagnostic and Interventional Radiology and Neuroradiology, 
+University Hospital Essen, Essen, Germany.
+(4)Department of Nuclear Medicine, University Hospital Essen, Essen, Germany.
+
+BackgroundChronic obstructive pulmonary disease (COPD) and emphysema display a 
+chronic and progressive disease for the individual patient. The forced 
+expiratory volume in one second (FEV1) is declining with age as displayed in the 
+Fletcher-Peto curve. Despite established benefits of bronchoscopic lung volume 
+reduction (BLVR) using endobronchial valves (EBVs), long-term data suggest a 
+gradual reduction in the magnitude of these benefits.PurposeThis study aimed to 
+compare the rate of lung function change in emphysema patients undergoing BLVR 
+versus those receiving conservative management, utilizing coarsened exact 
+matching to ensure balanced baseline characteristics.Patients and MethodsIn this 
+retrospective single center study data between 2015 and 2021 was analyzed. BLVR 
+patients achieving significant volume reduction (≥563 mL) were matched to 
+conservatively managed controls based on age, sex, BMI, and smoking history. 
+Pulmonary function changes after successful BLVR with valves, including forced 
+expiratory volume in one second (FEV1) and residual volume (RV), were monitored 
+and analyzed over a 3-year period.ResultsA total of 60 patients, evenly 
+distributed between the two groups (30 each), were included in the analysis. 
+Median FEV1 change was -0.063 L/year for BLVR patients and -0.066 L/year for 
+controls. No statistically significant differences in annual FEV1 and RV changes 
+were observed (-0.07 vs -0.08, p = 0.492; -0.07 vs -0.07, p = 0.569; -0.05 vs 
+-0.04, p = 0.636 at follow-ups in years 1, 2, and 3, respectively for FEV1 and 
++0.20 vs +0.25, p = 0.643; +0.80 vs +0.65, p = 0.960; +1.0 vs +0.85, p = 0.963 
+at follow-ups in years 1, 2, and 3, respectively for RV).ConclusionIn this 
+matched cohort analysis, no significant differences in annual changes in FEV1 or 
+RV progression were observed between patients after successful BLVR with valves 
+and patients under conservative treatment. The results indicate that COPD 
+progression is the main factor for the decline in functional improvement after 
+successful BLVR with valves.
+
+DOI: 10.1177/14799731251350709
+PMID: 40498987 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declaration of conflicting interestsThe 
+author(s) declared the following potential conflicts of interest with respect to 
+the research, authorship, and/or publication of this article: JW has received 
+speaker fees from PulmonX. KD has received speaker fees from Olympus, Boston 
+Scientific, Broncus Medical, Erbe, Böhringer I., Storz; consultant activities at 
+bess, Boston Scientific, Broncus Medical, Fujifilm, FreeFlow, Storz, PulmonX, 
+Böhringer I., Morair Medtech, Medtronic; research grants from Pulmonx, PneumRx, 
+Nuveira, Epigenomics, Broncus, Novartis, Roche, Ambu, Gala Therapeutics. DK 
+reports a research grant from Pfizer, funding by the German Research Foundation 
+(DFG, KE2933/1-1) and speaker honoraria from Pfizer and Novartis outside of the 
+submitted work. All other authors have no potential conflict of interest.
+---
+PMID: 40508213
+摘要: 1. Int J Mol Sci. 2025 Jun 4;26(11):5400. doi: 10.3390/ijms26115400.
+
+Alpha1-Antitrypsin in Lung Diseases: A Cross-Sectional Observational Study.
+
+Páska C(1), Barta I(1), Csoma Z(1), Gajdócsi R(1), Szél V(1), Kerpel-Fronius 
+A(1), Solymosi D(1), Örlős Z(1), Antus B(1).
+
+Author information:
+(1)National Korányi Institute for Pulmonology, Korányi Frigyes út. 1, 1121 
+Budapest, Hungary.
+
+Major mutations of SERPINA1, the gene encoding alpha1-antitrypsin (A1AT), are 
+known to cause severe emphysema. Our study aimed to investigate the role of 
+major mutations modulating A1AT levels in several lung pathologies and control 
+groups. Blood samples were collected from healthy non-smokers (N0 = 85), healthy 
+smokers (N0 = 291), healthy ex-smokers (N0 = 127), smokers with chronic 
+obstructive lung disease (COPD, N0 = 187), ex-smokers with COPD (N0 = 64), and 
+patients with asthma (N0 = 194), interstitial lung disease (ILD) (N0 = 93), 
+sarcoidosis (N0 = 30) and cystic fibrosis (N0 = 26). Clinical and respiratory 
+parameters, A1AT levels, the extent of emphysema and comorbidities on low-dose 
+CT scans were evaluated, and patients answered a smoking history and comorbidity 
+questionnaire. A1AT single-nucleotide polymorphisms were determined for the S, 
+Z, M2/M4, 0 and eQTL locations by SNP probes using real-time PCR. A1AT levels 
+showed significant differences between cigarette smoke-induced and other lung 
+diseases. Compared to controls, A1AT levels were found to be lower in 
+sarcoidosis and increasingly higher in smokers and patients with COPD, ILD and 
+CF, respectively. The presence and pattern of emphysema were found to influence 
+A1AT levels: lower values were observed in COPD patients without emphysema, 
+while higher values were observed in patients with central and panlobular 
+emphysema. Antitrypsin levels increased with COPD GOLD stages and asthma GINA 
+stages. Variable A1AT levels were also found in ILD subgroups. The distribution 
+of variants at the S, Z, M2/M4 and 0 polymorphic sites and the eQTL location 
+showed no significant differences between patient groups with impaired lung 
+function, except for Z heterozygotes, which were prevalent in patients with 
+severe asthma. The eQTL TT genotypes had higher A1AT levels and the occurrence 
+of emphysema and/or bronchitis was increased. A1AT levels correlated with 
+several clinical and respiratory parameters in pulmonary patients, while 
+FEV1/FVC inversely correlated with levels of A1AT. Molar antielastase activity 
+was increased in smokers and patients with lung diseases; however, in COPD, 
+antielastase activity decreased. The most reduced antielastase activity could be 
+found in CF. Certain genotypes were characterized by increased cardiovascular 
+comorbidity scores and antitrypsin levels. Our data suggest that in addition to 
+emphysema, A1AT may play an important role in the development of a wide variety 
+of lung diseases and cardiovascular comorbidities. Further research is needed to 
+clarify the role of A1AT and its regulation in lung pathologies.
+
+DOI: 10.3390/ijms26115400
+PMID: 40508213 [Indexed for MEDLINE]
+---
+"
+12270,1341593557,3785746332,2164-05-13 20:43:00,2164-05-14 12:00:00,2164-05-14 12:00:00,EMERGENCY,1,1,0389; 51881; 5770; 30390; 5781; 5845; 2848; 5722; 78559; 99592; 5711; 4019; 49390; 7299,9671; 17; 3995; 9904,Propofol; Heparin Flush CVL  (100 units/ml); Phytonadione; Albumin 25% (12.5gm); Dexamethasone; Calcium Gluconate; Cisatracurium Besylate; Artificial Tear Ointment; Sodium Bicarbonate; Sodium Bicarbonate; D5W; D5W; D5W; D5W; D5W; Vial; D5W; Dextrose 5%; NS; NS; D5W; NS; D5W; NS; D5W; D5W; D5W; Sterile Water; Sterile Water; D5W; D5W; SW; Sterile Water; Sterile Water; D5W; D5W; D5W; Dextrose 5%; NS; Sterile Water; Sterile Water; 1/2 NS; Sterile Water; Sterile Water; D5W; D5W; D5W; D5W; NS; D5W; Vasopressin; Norepinephrine; Phenylephrine HCl; Fentanyl Citrate; Midazolam HCl; Pantoprazole Sodium; Octreotide Acetate; Levofloxacin; Insulin Human Regular; Calcium Gluconate; Sodium Bicarbonate; Metronidazole; DopAmine; Sodium Bicarbonate; Cisatracurium Besylate; Cisatracurium Besylate; Normocarb; Normocarb; Cisatracurium Besylate; Cisatracurium Besylate; Potassium Chloride; Normocarb; Calcium Gluconate; Potassium Chloride; Normocarb; Calcium Gluconate; Potassium Chloride; Calcium Gluconate; Norepinephrine; Sodium Bicarbonate; Levofloxacin; Meropenem; Normocarb; Potassium Chloride; Calcium Gluconate; Normocarb; Potassium Chloride; Calcium Gluconate; Sodium Bicarbonate; Sodium Bicarbonate; Sodium Chloride ; Sodium Bicarbonate; Sodium Chloride ; Sodium Bicarbonate; Sodium Bicarbonate; Sodium Bicarbonate; Phenylephrine HCl; Calcium Gluconate; Morphine Sulfate,"```json
+{
+  ""admission_time"": ""2164-05-13 20:43:00"",
+  ""discharge_time"": ""2164-05-14 12:00:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""admission_department"": ""EMERGENCY"",
+  ""main_diagnosis_icd9"": [
+    ""0389"",
+    ""51881"",
+    ""5770"",
+    ""30390"",
+    ""5781"",
+    ""5845"",
+    ""2848"",
+    ""5722"",
+    ""78559"",
+    ""99592"",
+    ""5711"",
+    ""4019"",
+    ""49390"",
+    ""7299""
+  ],
+  ""main_procedure_icd9"": [
+    ""9671"",
+    ""17"",
+    ""3995"",
+    ""9904""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Propofol"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Phytonadione"",
+    ""Albumin 25% (12.5gm)"",
+    ""Dexamethasone"",
+    ""Calcium Gluconate"",
+    ""Cisatracurium Besylate"",
+    ""Artificial Tear Ointment"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Vial"",
+    ""D5W"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""SW"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""1/2 NS"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""Vasopressin"",
+    ""Norepinephrine"",
+    ""Phenylephrine HCl"",
+    ""Fentanyl Citrate"",
+    ""Midazolam HCl"",
+    ""Pantoprazole Sodium"",
+    ""Octreotide Acetate"",
+    ""Levofloxacin"",
+    ""Insulin Human Regular"",
+    ""Calcium Gluconate"",
+    ""Sodium Bicarbonate"",
+    ""Metronidazole"",
+    ""DopAmine"",
+    ""Sodium Bicarbonate"",
+    ""Cisatracurium Besylate"",
+    ""Cisatracurium Besylate"",
+    ""Normocarb"",
+    ""Normocarb"",
+    ""Cisatracurium Besylate"",
+    ""Cisatracurium Besylate"",
+    ""Potassium Chloride"",
+    ""Normocarb"",
+    ""Calcium Gluconate"",
+    ""Potassium Chloride"",
+    ""Normocarb"",
+    ""Calcium Gluconate"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Norepinephrine"",
+    ""Sodium Bicarbonate"",
+    ""Levofloxacin"",
+    ""Meropenem"",
+    ""Normocarb"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Normocarb"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Chloride"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Chloride"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Phenylephrine HCl"",
+    ""Calcium Gluconate"",
+    ""Morphine Sulfate""
+  ]
+}
+```","```json
+{
+  ""admission_time"": ""2164-05-13 20:43:00"",
+  ""discharge_time"": ""2164-05-14 12:00:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""admission_department"": ""EMERGENCY"",
+  ""main_diagnosis_icd9"": [
+    ""0389"",
+    ""51881"",
+    ""5770"",
+    ""30390"",
+    ""5781"",
+    ""5845"",
+    ""2848"",
+    ""5722"",
+    ""78559"",
+    ""99592"",
+    ""5711"",
+    ""4019"",
+    ""49390"",
+    ""7299""
+  ],
+  ""main_procedure_icd9"": [
+    ""9671"",
+    ""17"",
+    ""3995"",
+    ""9904""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Propofol"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Phytonadione"",
+    ""Albumin 25% (12.5gm)"",
+    ""Dexamethasone"",
+    ""Calcium Gluconate"",
+    ""Cisatracurium Besylate"",
+    ""Artificial Tear Ointment"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Vial"",
+    ""D5W"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""SW"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""Dextrose 5%"",
+    ""NS"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""1/2 NS"",
+    ""Sterile Water"",
+    ""Sterile Water"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""D5W"",
+    ""NS"",
+    ""D5W"",
+    ""Vasopressin"",
+    ""Norepinephrine"",
+    ""Phenylephrine HCl"",
+    ""Fentanyl Citrate"",
+    ""Midazolam HCl"",
+    ""Pantoprazole Sodium"",
+    ""Octreotide Acetate"",
+    ""Levofloxacin"",
+    ""Insulin Human Regular"",
+    ""Calcium Gluconate"",
+    ""Sodium Bicarbonate"",
+    ""Metronidazole"",
+    ""DopAmine"",
+    ""Sodium Bicarbonate"",
+    ""Cisatracurium Besylate"",
+    ""Cisatracurium Besylate"",
+    ""Normocarb"",
+    ""Normocarb"",
+    ""Cisatracurium Besylate"",
+    ""Cisatracurium Besylate"",
+    ""Potassium Chloride"",
+    ""Normocarb"",
+    ""Calcium Gluconate"",
+    ""Potassium Chloride"",
+    ""Normocarb"",
+    ""Calcium Gluconate"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Norepinephrine"",
+    ""Sodium Bicarbonate"",
+    ""Levofloxacin"",
+    ""Meropenem"",
+    ""Normocarb"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Normocarb"",
+    ""Potassium Chloride"",
+    ""Calcium Gluconate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Chloride"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Chloride"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Sodium Bicarbonate"",
+    ""Phenylephrine HCl"",
+    ""Calcium Gluconate"",
+    ""Morphine Sulfate""
+  ]
+}
+```
+
+【相关文献补充】
+PMID: 40507720
+摘要: 1. J Clin Med. 2025 Jun 4;14(11):3958. doi: 10.3390/jcm14113958.
+
+Safety and Efficacy of Radiofrequency Ablation in Management of Various 
+Pancreatic Neoplasms.
+
+Goduguchinta V(1), Ebrahim M(2), Patel R(1), Randhawa N(3), Khalyfa A(4), 
+Inamullah M(5), Desai R(1), Ayub K(6).
+
+Author information:
+(1)Franciscan Health, Olympia Fields, IL 60461, USA.
+(2)Ascension Saint Joseph Hospital, Chicago, IL 60657, USA.
+(3)Department of Gastroenterology, Medical College of Georgia, Augusta, GA 
+30912, USA.
+(4)Department of Gastroenterology, The University of Iowa, Iowa City, IA 52242, 
+USA.
+(5)Southwest Gastroenterology, Division of GI Partners of Illinois, Oak Lawn, IL 
+60453, USA.
+(6)Silver Cross Hospital, New Lenox, IL 60451, USA.
+
+Background/Objectives: Pancreatic neoplasms, including adenocarcinoma, 
+pancreatic neuroendocrine tumors (pNETs), intraductal papillary mucinous 
+neoplasms (IPMNs), and high-grade cystic lesions, often require surgical 
+resection as a form of curative treatment. However, comorbidities and high-risk 
+features may preclude surgery. Endoscopic ultrasound-guided radiofrequency 
+ablation (EUS-RFA) has emerged as a minimally invasive alternative with proven 
+cytoreductive efficacy in solid tumors. This case series evaluates the safety 
+and efficacy of EUS-RFA in patients with various unresectable, non-metastatic 
+pancreatic neoplasms. Methods: A retrospective review was conducted on eight 
+patients who underwent EUS-RFA at our institutions between July 2021 and 
+February 2025. All patients were deemed unsuitable surgical candidates due to 
+comorbidities such as advanced age, cardiovascular disease, renal insufficiency, 
+and COPD or due to patient resistance to surgical intervention. EUS-RFA was 
+performed using a 19-gauge RFA needle (Taewoong Corporation). Follow-up imaging 
+was conducted 3 to 6 months after the completion of RFA treatment. Results: All 
+eight patients demonstrated a good to excellent response in terms of tumor size 
+reduction. The most notable response was observed in a patient with pNET, 
+resulting in complete resolution from 15.6 × 12.0 mm to 0.0 × 0.0 mm after two 
+RFA treatments. Other neoplasms, including pancreatic adenocarcinoma and 
+intraductal papillary mucinous neoplasms (IPMNs), also demonstrated significant 
+reductions. Mild post-procedure complications, including pancreatitis and 
+abdominal pain, were noted in three cases. Conclusions: EUS-RFA is a promising 
+alternative for managing unresectable pancreatic neoplasms in high-risk 
+patients. Our findings support its use across various tumor types with favorable 
+outcomes and minimal complications, reinforcing its role in expanding 
+therapeutic options beyond surgery.
+
+DOI: 10.3390/jcm14113958
+PMID: 40507720
+---
+PMID: 40507773
+摘要: 1. J Clin Med. 2025 Jun 5;14(11):4011. doi: 10.3390/jcm14114011.
+
+The Hungry Heart: Managing Cardiogenic Shock in Patients with Severe Anorexia 
+Nervosa-A Case Report Series.
+
+Thienel M(1)(2), Kaiser R(1)(2), Gmeiner J(1), Orban M(1)(3), Kääb S(1)(2), 
+Petzold T(4)(5)(6), Massberg S(1)(2), Scherer C(1)(2).
+
+Author information:
+(1)Department of Cardiology, Ludwig-Maximilians-University Hospital, Ludwig 
+Maximilians University, 81377 Munich, Germany.
+(2)DZHK (German Centre for Cardiovascular Research), Partner Site Munich Heart 
+Alliance, 80336 Munich, Germany.
+(3)Kardiologie Ammer-Lech, 86911 Dießen am Ammersee, Germany.
+(4)Department of Cardiology, Angiology and Intensive Care Medicine, Deutsches 
+Herzzentrum der Charité, University Hospital Berlin, Campus Benjamin Franklin, 
+12203 Berlin, Germany.
+(5)DZHK (German Centre for Cardiovascular Research), Partner Site Berlin, 10785 
+Berlin, Germany.
+(6)Friede Springer, Centre of Cardiovascular Prevention at Charité, Charité 
+University Medicine Berlin, 12203 Berlin, Germany.
+
+Background: Cardiogenic shock is a life-threatening condition characterized by 
+the failure of the heart to maintain adequate circulation, leading to 
+multi-organ dysfunction. While it is most commonly associated with acute 
+myocardial infarction or cardiomyopathies, cardiogenic shock can also arise in 
+unusual settings, such as severe malnutrition in patients with anorexia nervosa, 
+a psychiatric disorder characterized by extreme restriction of food intake. 
+Methods: Here, we describe the management of three patients with anorexia 
+nervosa and severe cardiogenic shock, who were treated in our cardiological 
+intensive care unit between December 2022 and January 2025. Two patients were 
+successfully resuscitated after experiencing cardiac arrest, and two required 
+mechanical circulatory support, including Venoarterial Extracorporeal Membrane 
+Oxygenation and microaxial flow pump. The patients presented with a range of 
+complications including multi-organ failure and respiratory distress. Due to the 
+fragile balance between intensive cardiac and nutritional management, as well as 
+the comorbidity of chronic malnutrition, therapeutic decisions were made 
+carefully, including cautious electrolyte management, targeted nutritional 
+therapy, and the use of advanced circulatory support. Conclusions: The treatment 
+approach and beneficious outcomes underline the necessity of a multidisciplinary 
+strategy in managing these critically ill patients with complex, interwoven 
+pathologies. Our experience suggests that early recognition of cardiogenic shock 
+and timely intervention with mechanical circulatory support may significantly 
+improve patient survival in this high-risk cohort. Careful management of 
+nutritional therapy and supplementation of trace elements and vitamins is 
+crucial.
+
+DOI: 10.3390/jcm14114011
+PMID: 40507773
+---
+PMID: 40511450
+摘要: 1. Surg Case Rep. 2025;11(1):25-0173. doi: 10.70352/scrj.cr.25-0173. Epub 2025
+Jun  10.
+
+Laparoscopic Surgery via an Inferior Pancreatic Border Approach for Median 
+Arcuate Ligament Syndrome after Distal Gastrectomy: A Case Report.
+
+Nishino K(1), Ninomiya M(1), Kuriyama N(1), Izumi T(1), Kajiwara S(1), Nakanishi 
+R(1), Fujinaka Y(1), Nagata S(1), Kayashima H(1).
+
+Author information:
+(1)Department of Surgery, Aso Iizuka Hospital, Iizuka, Fukuoka, Japan.
+
+INTRODUCTION: Median arcuate ligament syndrome (MALS) is a relatively rare 
+condition characterized by compression of the celiac artery and neural plexus by 
+the median arcuate ligament. The definitive treatment is surgical division of 
+the median arcuate ligament, which can be performed via open, laparoscopic, or 
+retroperitoneoscopic surgery. In laparoscopic surgery, this approach commonly 
+involves reaching the root of the celiac artery from the superior border of the 
+pancreas to divide the median arcuate ligament. We herein report a case of MALS 
+following gastrectomy, in which the median arcuate ligament was successfully 
+divided using a laparoscopic approach from the inferior border of the pancreas.
+CASE PRESENTATION: A 67-year-old man who had undergone open distal gastrectomy 
+and D2 lymph node dissection for gastric cancer 16 years prior presented to the 
+emergency department with a chief complaint of sudden, severe epigastric pain. A 
+thorough examination led to the diagnosis of acute cholangitis and pancreatitis 
+due to retroperitoneal hematoma compression, for which percutaneous transhepatic 
+cholangial drainage (PTCD) was performed. Additionally, MALS was identified and 
+considered as the underlying cause of retroperitoneal hematoma. Conservative 
+treatment resulted in hematoma shrinkage and improvement in cholangitis and 
+pancreatitis, allowing the patient to be discharged. However, because of the 
+possibility of symptom recurrence, the patient was referred to our department 
+for surgical intervention. Given the history of gastrectomy, an approach from 
+the superior border of the pancreas was deemed to be challenging. Instead, we 
+accessed the root of the celiac artery from the inferior border of the pancreas, 
+successfully dividing the median arcuate ligament and confirming the improved 
+blood flow.
+CONCLUSIONS: MALS is a rare condition for which a standardized surgical approach 
+remains to be established. In cases of adhesions in the upper abdomen, an 
+approach from the inferior border of the pancreas may be a viable option and 
+could contribute to improved surgical outcomes.
+
+© 2025 The Author(s). Published by Japan Surgical Society.
+
+DOI: 10.70352/scrj.cr.25-0173
+PMCID: PMC12162146
+PMID: 40511450
+
+Conflict of interest statement: The authors declare no conflicts of interest in 
+association with the present study.
+---
+"
+12277,298596997,4129457254,2196-05-16 07:39:00,2196-05-23 11:45:00,,EMERGENCY,0,1,431; 4010; 5990; 2761; V103; 3569; 2859,,Metoprolol; Enalaprilat; Famotidine; Metoprolol; Levothyroxine Sodium; Lactulose; Heparin; Ciprofloxacin HCl; Ciprofloxacin HCl; Pantoprazole; Lisinopril; Sodium Chloride 0.9%  Flush; Metoprolol; PNEUMOcoccal Vac Polyvalent; Pantoprazole; Lisinopril; Ciprofloxacin HCl; D5W; D5W; NS (Glass Bottle); NS; Iso-Osmotic Sodium Chloride; NS; Labetalol; Ciprofloxacin IV; Labetalol; Ciprofloxacin IV; Famotidine; Sodium Chloride 0.9%  Flush; Acetaminophen; Senna; Senna; Docusate Sodium; Docusate Sodium; Bisacodyl; Bisacodyl; Insulin; Sertraline; Vitamin D; Levothyroxine Sodium; Demeclocycline; Sertraline; HydrALAzine; HydrALAzine; Levothyroxine Sodium,"```json
+{
+  ""admission_time"": ""2196-05-16 07:39:00"",
+  ""discharge_time"": ""2196-05-23 11:45:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""431"", ""4010"", ""5990"", ""2761"", ""V103"", ""3569"", ""2859""],
+  ""main_procedure_icd9"": ""nan"",
+  ""medication_records"": [
+    ""Metoprolol"",
+    ""Enalaprilat"",
+    ""Famotidine"",
+    ""Metoprolol"",
+    ""Levothyroxine Sodium"",
+    ""Lactulose"",
+    ""Heparin"",
+    ""Ciprofloxacin HCl"",
+    ""Ciprofloxacin HCl"",
+    ""Pantoprazole"",
+    ""Lisinopril"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Metoprolol"",
+    ""PNEUMOcoccal Vac Polyvalent"",
+    ""Pantoprazole"",
+    ""Lisinopril"",
+    ""Ciprofloxacin HCl"",
+    ""D5W"",
+    ""D5W"",
+    ""NS (Glass Bottle)"",
+    ""NS"",
+    ""Iso-Osmotic Sodium Chloride"",
+    ""NS"",
+    ""Labetalol"",
+    ""Ciprofloxacin IV"",
+    ""Labetalol"",
+    ""Ciprofloxacin IV"",
+    ""Famotidine"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Acetaminophen"",
+    ""Senna"",
+    ""Senna"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Insulin"",
+    ""Sertraline"",
+    ""Vitamin D"",
+    ""Levothyroxine Sodium"",
+    ""Demeclocycline"",
+    ""Sertraline"",
+    ""HydrALAzine"",
+    ""HydrALAzine"",
+    ""Levothyroxine Sodium""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""curative_effect"": """"
+}
+```","```json
+{
+  ""admission_time"": ""2196-05-16 07:39:00"",
+  ""discharge_time"": ""2196-05-23 11:45:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""431"", ""4010"", ""5990"", ""2761"", ""V103"", ""3569"", ""2859""],
+  ""main_procedure_icd9"": ""nan"",
+  ""medication_records"": [
+    ""Metoprolol"",
+    ""Enalaprilat"",
+    ""Famotidine"",
+    ""Metoprolol"",
+    ""Levothyroxine Sodium"",
+    ""Lactulose"",
+    ""Heparin"",
+    ""Ciprofloxacin HCl"",
+    ""Ciprofloxacin HCl"",
+    ""Pantoprazole"",
+    ""Lisinopril"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Metoprolol"",
+    ""PNEUMOcoccal Vac Polyvalent"",
+    ""Pantoprazole"",
+    ""Lisinopril"",
+    ""Ciprofloxacin HCl"",
+    ""D5W"",
+    ""D5W"",
+    ""NS (Glass Bottle)"",
+    ""NS"",
+    ""Iso-Osmotic Sodium Chloride"",
+    ""NS"",
+    ""Labetalol"",
+    ""Ciprofloxacin IV"",
+    ""Labetalol"",
+    ""Ciprofloxacin IV"",
+    ""Famotidine"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Acetaminophen"",
+    ""Senna"",
+    ""Senna"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Insulin"",
+    ""Sertraline"",
+    ""Vitamin D"",
+    ""Levothyroxine Sodium"",
+    ""Demeclocycline"",
+    ""Sertraline"",
+    ""HydrALAzine"",
+    ""HydrALAzine"",
+    ""Levothyroxine Sodium""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""curative_effect"": """"
+}
+```
+
+【相关文献补充】
+PMID: 40510686
+摘要: 1. Case Rep Neurol. 2025 May 6;17(1):62-71. doi: 10.1159/000546056. eCollection 
+2025 Jan-Dec.
+
+Delayed Intracerebral Hemorrhage after Deep Brain Stimulation for Parkinson's 
+Disease.
+
+Chudy H(1), Raguž M(2)(3), Marčinković P(2), Rački V(4)(5), Papić E(4)(5), Hero 
+M(4)(5), Vuletić V(4)(5), Chudy D(2)(6).
+
+Author information:
+(1)Department of Neurology, Dubrava University Hospital, Zagreb, Croatia.
+(2)Department of Neurosurgery, Dubrava University Hospital, Zagreb, Croatia.
+(3)School of Medicine, Catholic University of Croatia, Zagreb, Croatia.
+(4)Department of Neurology, University Hospital Centre, Rijeka, Croatia.
+(5)Department of Neurology, Faculty of Medicine, University of Rijeka, Rijeka, 
+Croatia.
+(6)Department of Surgery, School of Medicine University of Zagreb, Zagreb, 
+Croatia.
+
+INTRODUCTION: Deep brain stimulation (DBS) of the subthalamic nucleus (STN) is a 
+well-established treatment for advanced Parkinson's disease (PD), offering 
+significant symptomatic relief. Although DBS is generally considered safe, it 
+carries risks, including the potential for delayed complications such as 
+intracerebral hemorrhage (ICH).
+CASE PRESENTATION: We present a rare case of a 67-year-old male with PD who 
+developed delayed ICH after undergoing bilateral STN DBS. Initially, the patient 
+showed no neurological deficits postoperatively, with imaging confirming correct 
+lead placement and no signs of hemorrhage. However, on the second postoperative 
+day, the patient developed sudden right-sided hemiparesis. A CT scan revealed 
+ICH alongside the left lead. The hemorrhage was managed conservatively, and the 
+patient underwent extensive physical therapy, leading to significant 
+improvement. Over the next 2 weeks, the patient's condition improved, and 
+follow-up CT scans showed complete resolution of the ICH. At this point, the 
+left lead stimulation was initiated, further improving the patient's PD 
+symptoms. This case illustrates the potential for delayed ICH following STN DBS, 
+emphasizing the need for ongoing monitoring and individualized treatment 
+strategies.
+CONCLUSION: This case underscores the importance of vigilant postoperative 
+monitoring and individualized management strategies in STN DBS patients. Early 
+detection and appropriate management of complications such as ICH are crucial 
+for minimizing risks and ensuring optimal patient outcomes. The potential for 
+delayed complications highlights the need for continuous follow-up, even in the 
+absence of immediate postoperative issues.
+
+© 2025 The Author(s). Published by S. Karger AG, Basel.
+
+DOI: 10.1159/000546056
+PMCID: PMC12162119
+PMID: 40510686
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+---
+PMID: 40510140
+摘要: 1. Front Oncol. 2025 May 29;15:1598921. doi: 10.3389/fonc.2025.1598921.
+eCollection  2025.
+
+Atrial arrhythmias associated with anti-tumor drugs in patients with malignant 
+tumors and type 2 diabetes mellitus.
+
+Zhang B(1), Zhang L(2), Ren Y(3), Xu C(4).
+
+Author information:
+(1)Department of Oncology, Zhejiang Hospital, Hangzhou, Zhejiang, China.
+(2)Department of Hepatology I, Affiliated Hospital of Shaoxing University 
+Department of Infectious Diseases, Shaoxing, Zhejiang, China.
+(3)Department of Geriatrics II, Affiliated Hospital of Shaoxing University 
+Geriatrics II, Shaoxing, Zhejiang, China.
+(4)Department of Cardiology, Zhejiang Hospital, Hangzhou, Zhejiang, China.
+
+OBJECTIVE: Patients with malignancies and type 2 diabetes mellitus (T2DM) face 
+heightened risks of cardiotoxicity from antitumor therapies, yet the interplay 
+between diabetes, antitumor drugs, and atrial arrhythmias remains underexplored. 
+This study investigates the incidence and risk factors of atrial arrhythmias in 
+this high-risk population.
+METHODS: In this retrospective cohort study, 171 patients with T2DM and 
+malignancies receiving antitumor therapy at Zhejiang Hospital (January 
+2022-January 2024) were analyzed. Serial 12-lead electrocardiograms (ECGs) were 
+performed pre- and post-chemotherapy cycles to detect new-onset atrial 
+arrhythmias. Multivariate Cox regression identified risk factors, adjusting for 
+age, hypertension, renal function, and cardiac biomarkers (troponin I, 
+NT-proBNP). Subgroup analyses stratified by tumor type, diabetes duration, and 
+drug class were conducted.
+RESULTS: Atrial arrhythmias occurred in 10.5% of patients (18/171), with a 
+significantly higher incidence in diabetics versus non-diabetics (18.4% vs. 
+4.2%, P=0.004). Advanced age (HR=10.25, 95% CI 1.01-104.56; P=0.049) and 
+anthracycline use (HR=2.70, 95% CI 1.02-7.19; P=0.045) independently predicted 
+arrhythmia risk. Diabetes duration ≥5 years (HR=2.85, 95% CI 1.22-6.70; P=0.016) 
+and reduced eGFR (<60 mL/min/1.73m²; HR=2.58, 95% CI 1.04-6.39; P=0.039) further 
+elevated risk. A synergistic interaction was observed between diabetes and 
+anthracyclines (HR=3.95, 95% CI 1.58-9.85; P=0.002). Dynamic rises in NT-proBNP 
+(≥50%) and troponin I (≥5 ng/L) emerged as strong predictors (HR=2.11 and 2.73, 
+respectively; P<0.05).
+CONCLUSION: T2DM significantly amplifies atrial arrhythmia risk in cancer 
+patients receiving antitumor drugs, particularly anthracyclines. Age, ischemic 
+heart disease, and biomarker trends are critical risk indicators. Proactive ECG 
+and biomarker monitoring, coupled with cardio-oncology collaboration, are 
+essential for mitigating arrhythmia-related morbidity.
+
+Copyright © 2025 Zhang, Zhang, Ren and Xu.
+
+DOI: 10.3389/fonc.2025.1598921
+PMCID: PMC12158937
+PMID: 40510140
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+---
+PMID: 40510572
+摘要: 1. Brain Spine. 2025 May 1;5:104260. doi: 10.1016/j.bas.2025.104260. eCollection 
+2025.
+
+Repetitive intraarterial therapy with Milrinone and Nimodipine for severe 
+refractory Vasospasm: own series and narrative literature review.
+
+Wambacher B(1)(2)(3), Kappel J(4), Vavrik J(5), Loyoddin M(2), Ortler M(2)(6), 
+Sherif C(1)(2)(4).
+
+Author information:
+(1)Karl Landsteiner University of Health Sciences, Dr. Karl-Dorrek-Straße 30, 
+3500, Krems, Austria.
+(2)Department of Neurosurgery, Klinik Landstrasse, Juchgasse 25, 1030, Vienna, 
+Austria.
+(3)Institute of Diagnostic and Interventional Radiology, University Hospital St. 
+Poelten, Dunant-Platz 1, 3100, St. Poelten, Austria.
+(4)Department of Neurosurgery, University Hospital St. Poelten, Dunant-Platz 1, 
+3100, St. Poelten, Austria.
+(5)Department of Radiology, Klinik Landstrasse, Juchgasse 25, 1030, Vienna, 
+Austria.
+(6)Medical University Innsbruck, 6020, Innsbruck, Austria.
+
+INTRODUCTION: Cerebral vasospasm (VSP) following aneurysmal subarachnoid 
+hemorrhage remains a major source of morbidity. The best rescue treatment option 
+remains uncertain. Intraarterial (ia) Milrinone and Nimodipine were suggested as 
+safe treatment options.
+RESEARCH QUESTION: We aimed to evaluate the effect of repetitive endovascular 
+intraarterial (ia) combined Milrinone and Nimodipine administration as rescue 
+therapy for severe refractory cerebral VSP.
+MATERIAL & METHODS: In this retrospective single center series, we included only 
+patients with refractory VSP despite maximum standard conservative therapy. 
+Inclusion criteria for endovascular rescue treatment were elevated transcranial 
+Doppler (TCD) > 180 cm/s and/or significant clinical neurological deterioration. 
+Patients received ia therapy with Nimodipine 2 mg followed by Milrinone 5 mg. 
+Repetitive reinterventions were indicated in cases of refractory VSP. We 
+evaluated pre- and direct posttreatment neurological status, mRS at final 
+clinical follow-up, TCD values and measured the DSA pre-postinterventional 
+vessel diameters.
+RESULTS: 38 aSAH patients received ia therapy. Of those, 18 patients (47.4 %) 
+received ≥3 interventions (average:3.4 ± 2.6; maximum:11). Immediate improvement 
+of neurological deficits was seen in 31/38 patients (81.6 %). Overall mortality 
+was low (3/38, 7.9 %). The clinical follow-up after 4 months showed persistent 
+improvement in 24/38 patients (63.2 %) with good clinical outcomes (mRS ≤3). 
+Immediate postinterventional angiographic improvement of vessel diameter was 
+shown in 97,7 % (127/130) of all interventions. Neither severe cardiovascular 
+nor reintervention-related adverse events were observed.
+DISCUSSION AND CONCLUSION: In this series repetitive ia interventions combining 
+Milrinone and Nimodipine showed promising clinical results and low mortality for 
+refractory VSP. Larger prospective randomized clinical trials are warranted.
+TRIAL REGISTRATION: ISRCTN, study ID ISRCTN36126862 registered 21.11.2018, 
+retrospectively registered, http://www.isrctn.com/ISRCTN36126862.
+
+© 2025 The Authors.
+
+DOI: 10.1016/j.bas.2025.104260
+PMCID: PMC12159937
+PMID: 40510572
+
+Conflict of interest statement: The authors declare that they have no known 
+competing financial interests or personal relationships that could have appeared 
+to influence the work reported in this paper.
+---
+"
+12278,3020600935,1706264023,2191-07-13 07:15:00,2191-07-25 14:00:00,,ELECTIVE,0,1,4280; 4240; 3970; 4266; 42731; 5859; 41401; 4019; 25000; 2948; 5691; 79092,3523; 3612; 3961; 8872; 3772; 3783; 9962; 9626; 3893; 9904; 9905; 9907,Potassium Chloride; Docusate Sodium; Ranitidine; Aspirin EC; Warfarin; Acetaminophen; Oxycodone-Acetaminophen; Milk of Magnesia; Bisacodyl; Propofol; Glycopyrrolate; Neostigmine; Calcium Gluconate; Magnesium Sulfate; Morphine Sulfate; Metoclopramide; Oxycodone-Acetaminophen; Sucralfate; Acetaminophen; Acetaminophen; Aspirin EC; Aspirin; Ranitidine; Ranitidine; Sodium Chloride 0.9%  Flush; Atorvastatin; GlipiZIDE; Amiodarone HCl; Exelon; Warfarin; Insulin; Amiodarone HCl; Metoprolol; Warfarin; Docusate Sodium (Liquid); Warfarin; LR; D5W; D5W; SW; NS; NS; D5W; NS; D5W (EXCEL BAG); D5W (EXCEL BAG); D5W; Vial; D5W (EXCEL BAG); NS; NS; D5W (EXCEL BAG); SW; Nitroglycerin; Phenylephrine HCl; Potassium Chloride; Cefazolin; Insulin Human Regular; Milrinone; NiCARdipine IV; Amiodarone HCl; Amiodarone HCl; Diltiazem; Pantoprazole Sodium; Amiodarone HCl; Amiodarone HCl; Potassium Chloride; Docusate Sodium; Docusate Sodium (Liquid); Dextrose 50%; Furosemide; Insulin; Dextrose 50%; Amiodarone HCl; HydrALAZINE HCl; HydrALAZINE HCl; Diltiazem; Amiodarone HCl; Adenosine; Diltiazem; Diltiazem; Metoprolol; Diltiazem; Diltiazem; Furosemide; Furosemide; Amiodarone HCl; Metoprolol; Furosemide; Furosemide; Pantoprazole; Oxycodone-Acetaminophen; Oxycodone-Acetaminophen; Amiodarone HCl; GlipiZIDE; Amiodarone HCl; Potassium Chloride; Oxycodone-Acetaminophen; Amiodarone HCl; Magnesium Sulfate; Metoprolol; Furosemide,"```json
+{
+  ""admission_time"": ""2191-07-13 07:15:00"",
+  ""discharge_time"": ""2191-07-25 14:00:00"",
+  ""admission_method"": ""ELECTIVE"",
+  ""admission_department"": ""ELECTIVE"",
+  ""discharge_method"": """",
+  ""primary_diagnosis_icd9"": [
+    ""4280"",
+    ""4240"",
+    ""3970"",
+    ""4266"",
+    ""42731"",
+    ""5859"",
+    ""41401"",
+    ""4019"",
+    ""25000"",
+    ""2948"",
+    ""5691"",
+    ""79092""
+  ],
+  ""primary_procedure_icd9"": [
+    ""3523"",
+    ""3612"",
+    ""3961"",
+    ""8872"",
+    ""3772"",
+    ""3783"",
+    ""9962"",
+    ""9626"",
+    ""3893"",
+    ""9904"",
+    ""9905"",
+    ""9907""
+  ],
+  ""chief_complaint"": """",
+  ""history_of_present_illness"": """",
+  ""physical_examination"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Potassium Chloride"",
+    ""Docusate Sodium"",
+    ""Ranitidine"",
+    ""Aspirin EC"",
+    ""Warfarin"",
+    ""Acetaminophen"",
+    ""Oxycodone-Acetaminophen"",
+    ""Milk of Magnesia"",
+    ""Bisacodyl"",
+    ""Propofol"",
+    ""Glycopyrrolate"",
+    ""Neostigmine"",
+    ""Calcium Gluconate"",
+    ""Magnesium Sulfate"",
+    ""Morphine Sulfate"",
+    ""Metoclopramide"",
+    ""Oxycodone-Acetaminophen"",
+    ""Sucralfate"",
+    ""Acetaminophen"",
+    ""Acetaminophen"",
+    ""Aspirin EC"",
+    ""Aspirin"",
+    ""Ranitidine"",
+    ""Ranitidine"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Atorvastatin"",
+    ""GlipiZIDE"",
+    ""Amiodarone HCl"",
+    ""Exelon"",
+    ""Warfarin"",
+    ""Insulin"",
+    ""Amiodarone HCl"",
+    ""Metoprolol"",
+    ""Warfarin"",
+    ""Docusate Sodium (Liquid)"",
+    ""Warfarin"",
+    ""LR"",
+    ""D5W"",
+    ""D5W"",
+    ""SW"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W (EXCEL BAG)"",
+    ""D5W (EXCEL BAG)"",
+    ""D5W"",
+    ""Vial"",
+    ""D5W (EXCEL BAG)"",
+    ""NS"",
+    ""NS"",
+    ""D5W (EXCEL BAG)"",
+    ""SW"",
+    ""Nitroglycerin"",
+    ""Phenylephrine HCl"",
+    ""Potassium Chloride"",
+    ""Cefazolin"",
+    ""Insulin Human Regular"",
+    ""Milrinone"",
+    ""NiCARdipine IV"",
+    ""Amiodarone HCl"",
+    ""Amiodarone HCl"",
+    ""Diltiazem"",
+    ""Pantoprazole Sodium"",
+    ""Amiodarone HCl"",
+    ""Amiodarone HCl"",
+    ""Potassium Chloride"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium (Liquid)"",
+    ""Dextrose 50%"",
+    ""Furosemide"",
+    ""Insulin"",
+    ""Dextrose 50%"",
+    ""Amiodarone HCl"",
+    ""HydrALAZINE HCl"",
+    ""HydrALAZINE HCl"",
+    ""Diltiazem"",
+    ""Amiodarone HCl"",
+    ""Adenosine"",
+    ""Diltiazem"",
+    ""Diltiazem"",
+    ""Metoprolol"",
+    ""Diltiazem"",
+    ""Diltiazem"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Amiodarone HCl"",
+    ""Metoprolol"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Pantoprazole"",
+    ""Oxycodone-Acetaminophen"",
+    ""Oxycodone-Acetaminophen"",
+    ""Amiodarone HCl"",
+    ""GlipiZIDE"",
+    ""Amiodarone HCl"",
+    ""Potassium Chloride"",
+    ""Oxycodone-Acetaminophen"",
+    ""Amiodarone HCl"",
+    ""Magnesium Sulfate"",
+   ","```json
+{
+  ""admission_time"": ""2191-07-13 07:15:00"",
+  ""discharge_time"": ""2191-07-25 14:00:00"",
+  ""admission_method"": ""ELECTIVE"",
+  ""admission_department"": ""ELECTIVE"",
+  ""discharge_method"": """",
+  ""primary_diagnosis_icd9"": [
+    ""4280"",
+    ""4240"",
+    ""3970"",
+    ""4266"",
+    ""42731"",
+    ""5859"",
+    ""41401"",
+    ""4019"",
+    ""25000"",
+    ""2948"",
+    ""5691"",
+    ""79092""
+  ],
+  ""primary_procedure_icd9"": [
+    ""3523"",
+    ""3612"",
+    ""3961"",
+    ""8872"",
+    ""3772"",
+    ""3783"",
+    ""9962"",
+    ""9626"",
+    ""3893"",
+    ""9904"",
+    ""9905"",
+    ""9907""
+  ],
+  ""chief_complaint"": """",
+  ""history_of_present_illness"": """",
+  ""physical_examination"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_course"": """",
+  ""treatment_recommendation"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Potassium Chloride"",
+    ""Docusate Sodium"",
+    ""Ranitidine"",
+    ""Aspirin EC"",
+    ""Warfarin"",
+    ""Acetaminophen"",
+    ""Oxycodone-Acetaminophen"",
+    ""Milk of Magnesia"",
+    ""Bisacodyl"",
+    ""Propofol"",
+    ""Glycopyrrolate"",
+    ""Neostigmine"",
+    ""Calcium Gluconate"",
+    ""Magnesium Sulfate"",
+    ""Morphine Sulfate"",
+    ""Metoclopramide"",
+    ""Oxycodone-Acetaminophen"",
+    ""Sucralfate"",
+    ""Acetaminophen"",
+    ""Acetaminophen"",
+    ""Aspirin EC"",
+    ""Aspirin"",
+    ""Ranitidine"",
+    ""Ranitidine"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Atorvastatin"",
+    ""GlipiZIDE"",
+    ""Amiodarone HCl"",
+    ""Exelon"",
+    ""Warfarin"",
+    ""Insulin"",
+    ""Amiodarone HCl"",
+    ""Metoprolol"",
+    ""Warfarin"",
+    ""Docusate Sodium (Liquid)"",
+    ""Warfarin"",
+    ""LR"",
+    ""D5W"",
+    ""D5W"",
+    ""SW"",
+    ""NS"",
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""D5W (EXCEL BAG)"",
+    ""D5W (EXCEL BAG)"",
+    ""D5W"",
+    ""Vial"",
+    ""D5W (EXCEL BAG)"",
+    ""NS"",
+    ""NS"",
+    ""D5W (EXCEL BAG)"",
+    ""SW"",
+    ""Nitroglycerin"",
+    ""Phenylephrine HCl"",
+    ""Potassium Chloride"",
+    ""Cefazolin"",
+    ""Insulin Human Regular"",
+    ""Milrinone"",
+    ""NiCARdipine IV"",
+    ""Amiodarone HCl"",
+    ""Amiodarone HCl"",
+    ""Diltiazem"",
+    ""Pantoprazole Sodium"",
+    ""Amiodarone HCl"",
+    ""Amiodarone HCl"",
+    ""Potassium Chloride"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium (Liquid)"",
+    ""Dextrose 50%"",
+    ""Furosemide"",
+    ""Insulin"",
+    ""Dextrose 50%"",
+    ""Amiodarone HCl"",
+    ""HydrALAZINE HCl"",
+    ""HydrALAZINE HCl"",
+    ""Diltiazem"",
+    ""Amiodarone HCl"",
+    ""Adenosine"",
+    ""Diltiazem"",
+    ""Diltiazem"",
+    ""Metoprolol"",
+    ""Diltiazem"",
+    ""Diltiazem"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Amiodarone HCl"",
+    ""Metoprolol"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Pantoprazole"",
+    ""Oxycodone-Acetaminophen"",
+    ""Oxycodone-Acetaminophen"",
+    ""Amiodarone HCl"",
+    ""GlipiZIDE"",
+    ""Amiodarone HCl"",
+    ""Potassium Chloride"",
+    ""Oxycodone-Acetaminophen"",
+    ""Amiodarone HCl"",
+    ""Magnesium Sulfate"",
+   
+
+【相关文献补充】
+PMID: 40511138
+摘要: 1. J Pharm Bioallied Sci. 2025 May;17(Suppl 1):S630-S633. doi: 
+10.4103/jpbs.jpbs_1457_24. Epub 2025 Feb 15.
+
+Prevalence of Cardiovascular Disease in Patients with Chronic Kidney Disease and 
+End-Stage Renal Disease in India: A Cross-Sectional Study.
+
+Yellapantula B(1), Jhunjhunwala KD(2), Bhrushundi M(1), Sharma R(3).
+
+Author information:
+(1)Department of Medicine, Datta Meghe Medical College, Datta Meghe Institute of 
+Higher Education and Research, Nagpur, Maharashtra, India.
+(2)Department of Pediatrics, Datta Meghe Medical College, Datta Meghe Institute 
+of Higher Education and Research, Nagpur, Maharashtra, India.
+(3)Department of Medical Surgical Nursing, Shalinitai Meghe College of Nursing, 
+Datta Meghe Institute of Higher Education and Research, Wardha, Maharashtra, 
+India.
+
+BACKGROUND: Cardiovascular disease (CVD) is a leading cause of morbidity and 
+mortality in patients with chronic kidney disease (CKD) and end-stage renal 
+disease (ESRD). Understanding CVD prevalence and risk factors in these 
+populations is essential for improving outcomes. This study assesses CVD 
+prevalence and associated risk factors among CKD and ESRD patients in India.
+MATERIALS AND METHODS: A cross-sectional study was conducted from January 2022 
+to December 2023 at Acharya Vinoba Bhave Rural Hospital, India, including 800 
+adult CKD stage 3 to 5 patients, with and without dialysis. Data collection 
+involved patient interviews, medical record reviews, clinical exams, and 
+biochemical assessments. Logistic regression analysis identified independent 
+predictors of CVD.
+RESULTS: Among participants, 35% had coronary artery disease, 27.5% had heart 
+failure, 20% had arrhythmias, and 15% had cerebrovascular disease. CVD 
+prevalence was higher in ESRD patients compared to CKD patients. Significant 
+predictors included age, hypertension, diabetes, dyslipidemia, and ESRD status, 
+with ESRD patients showing more than double the odds of developing CVD (OR 2.50, 
+95% CI 1.85-3.40, P < 0.001).
+CONCLUSION: This study reveals a high burden of CVD among CKD and ESRD patients 
+in India, particularly in those with ESRD. Early identification and management 
+of cardiovascular risk factors in CKD patients are crucial to reducing the risk 
+of complications.
+
+Copyright: © 2025 Journal of Pharmacy and Bioallied Sciences.
+
+DOI: 10.4103/jpbs.jpbs_1457_24
+PMCID: PMC12156708
+PMID: 40511138
+
+Conflict of interest statement: There are no conflicts of interest.
+---
+PMID: 40511586
+摘要: 1. ESC Heart Fail. 2025 Jun 13. doi: 10.1002/ehf2.15348. Online ahead of print.
+
+Aortic stenosis intricacies beyond the valve: A bidirectional Mendelian 
+randomization study.
+
+Cai D(1), Liu J(1).
+
+Author information:
+(1)Department of Cardiology, Ningbo Medical Center of Lihuili Hospital, Ningbo, 
+China.
+
+AIMS: Numerous observational studies have reported an association between 
+calcific aortic valve stenosis (CAVS) and an increased risk of other 
+cardiovascular diseases (CVDs). However, the potential causal association is 
+uncertain.
+METHODS AND RESULTS: A bidirectional Mendelian randomization (MR) analysis was 
+performed to confirm the causal association between CAVS and the risk of seven 
+common CVDs. The meta-analysis was used to estimate the combined causal effect 
+with multiple MR results. The MR analysis indicated that genetically predicted 
+CAVS is associated with the increased risk of heart failure (odds ratio 
+[OR] = 1.064; 95% confidence interval [CI] [1.008, 1.123]; P = 0.025), 
+large-artery stroke (OR = 1.256; 95% CI [1.112, 1.418]; P < 0.001), 
+cardioembolic stroke (OR = 1.228; 95% CI [1.117, 1.349]; P < 0.001) and atrial 
+fibrillation (OR = 1.100; 95% CI [1.061, 1.140]; P < 0.001) without 
+heterogeneity and pleiotropy. Genetically predicted hypertension (FinnGen: 
+OR = 1.170; 95% CI [1.055, 1.297]; P = 0.003 and UK Biobank: OR = 2.456; 95% CI: 
+1.571, 3.840; P = 8.16 × 10-5) increased the risk of CAVS.
+CONCLUSIONS: This comprehensive MR study revealed the causal relationship 
+between genetically predicted CAVS and the increased risk of various CVDs and 
+the causal relationship between hypertension and CAVS risk. Given the harmful 
+causal impact of CAVS on adverse cardiovascular events, it is crucial to 
+prioritize the prevention and management of CVD in individuals with CAVS. Blood 
+pressure management is an effective preventive intervention.
+
+© 2025 The Author(s). ESC Heart Failure published by John Wiley & Sons Ltd on 
+behalf of European Society of Cardiology.
+
+DOI: 10.1002/ehf2.15348
+PMID: 40511586
+---
+PMID: 40511535
+摘要: 1. Int J Mol Med. 2025 Aug;56(2):125. doi: 10.3892/ijmm.2025.5566. Epub 2025 Jun 
+13.
+
+Molecular mechanisms and intervention approaches of heart failure (Review).
+
+Guo S(1), Hu Y(2), Ling L(2), Yang Z(2), Wan L(2), Yang X(1), Lei M(1), Guo 
+X(1), Ren Z(1).
+
+Author information:
+(1)Hubei Key Laboratory of Diabetes and Angiopathy, Xianning Medical College, 
+Hubei University of Science and Technology, Xianning, Hubei 437100, P.R. China.
+(2)School of Basic Medical Sciences, Xianning Medical College, Hubei University 
+of Science and Technology, Xianning, Hubei 437100, P.R. China.
+
+Heart failure is a major health issue that threatens life and health. Previous 
+studies have shown that heart failure is the terminal stage of arrhythmia, 
+dilated cardiomyopathy, hypertension, hypertrophic cardiomyopathy and myocardial 
+infarction. The pathological mechanisms through which cardiovascular diseases 
+result in heart failure include myocardial fibrosis and hypertrophy, myocardial 
+cell death, mitochondrial dysfunction, vascular remodeling and calcium 
+dysregulation. However, the detailed molecular mechanisms of heart failure 
+remain elusive because of its complexity, hindering the development of 
+intervention approaches for heart failure. The present study reviewed recent 
+research progress on heart failure and provided references and strategies for 
+the prevention and treatment of heart failure.
+
+DOI: 10.3892/ijmm.2025.5566
+PMID: 40511535 [Indexed for MEDLINE]
+---
+"
+12280,1267155896,1278116611,2140-09-21 10:58:00,2140-10-01 14:29:00,,EMERGENCY,0,1,0380; 99673; 5761; 57451; 42731; 5856; 4538; 5990; 78552; 51882; 2875; 5119; 40391; 4280; 99659; 7211; V1588; 2380; 2930; 0414; 99592; V4502; V1046,3942; 5110; 9705; 17; 3995; 8721; 8849; 3895,NS; D5W; NS; NS; LR; LR; NS (Mini Bag Plus); NS (Mini Bag Plus); Isotonic Sodium Chloride; D5 1/2NS; NS; Isotonic Sodium Chloride; Levofloxacin; Vancomycin HCl; Metronidazole; Piperacillin-Tazobactam Na; Gentamicin; Pantoprazole Sodium; Meropenem; Norepinephrine; Meropenem; Meropenem; Isotonic Sodium Chloride; Vial; NS; Gentamicin; Gentamicin; Sodium Chloride 0.9%  Flush; Metoprolol; Metoprolol; Lisinopril; Aspirin; Simvastatin; Sevelamer; Isoniazid; Heparin; Acetaminophen; Metoprolol; Acetaminophen; Acetaminophen; Heparin Flush CVL  (100 units/ml); Fentanyl Citrate; Midazolam HCl; Sodium Chloride 0.9%  Flush; Sevelamer; Pneumococcal Vac Polyvalent; Sodium Chloride 0.9%  Flush; Heparin Flush CVL  (100 units/ml); Pantoprazole; Metoprolol; Lisinopril; Sevelamer; Lisinopril; Nephrocaps; NS; Dextrose 5%; Iso-Osmotic Dextrose; NS; Iso-Osmotic Dextrose; NS (Mini Bag Plus),"```json
+{
+  ""admission_time"": ""2140-09-21 10:58:00"",
+  ""discharge_time"": ""2140-10-01 14:29:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""0380"",
+    ""99673"",
+    ""5761"",
+    ""57451"",
+    ""42731"",
+    ""5856"",
+    ""4538"",
+    ""5990"",
+    ""78552"",
+    ""51882"",
+    ""2875"",
+    ""5119"",
+    ""40391"",
+    ""4280"",
+    ""99659"",
+    ""7211"",
+    ""V1588"",
+    ""2380"",
+    ""2930"",
+    ""0414"",
+    ""99592"",
+    ""V4502"",
+    ""V1046""
+  ],
+  ""main_procedure_icd9"": [
+    ""3942"",
+    ""5110"",
+    ""9705"",
+    ""17"",
+    ""3995"",
+    ""8721"",
+    ""8849"",
+    ""3895""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""NS"",
+    ""LR"",
+    ""LR"",
+    ""NS (Mini Bag Plus)"",
+    ""NS (Mini Bag Plus)"",
+    ""Isotonic Sodium Chloride"",
+    ""D5 1/2NS"",
+    ""NS"",
+    ""Isotonic Sodium Chloride"",
+    ""Levofloxacin"",
+    ""Vancomycin HCl"",
+    ""Metronidazole"",
+    ""Piperacillin-Tazobactam Na"",
+    ""Gentamicin"",
+    ""Pantoprazole Sodium"",
+    ""Meropenem"",
+    ""Norepinephrine"",
+    ""Meropenem"",
+    ""Meropenem"",
+    ""Isotonic Sodium Chloride"",
+    ""Vial"",
+    ""NS"",
+    ""Gentamicin"",
+    ""Gentamicin"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Metoprolol"",
+    ""Metoprolol"",
+    ""Lisinopril"",
+    ""Aspirin"",
+    ""Simvastatin"",
+    ""Sevelamer"",
+    ""Isoniazid"",
+    ""Heparin"",
+    ""Acetaminophen"",
+    ""Metoprolol"",
+    ""Acetaminophen"",
+    ""Acetaminophen"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Fentanyl Citrate"",
+    ""Midazolam HCl"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Sevelamer"",
+    ""Pneumococcal Vac Polyvalent"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Pantoprazole"",
+    ""Metoprolol"",
+    ""Lisinopril"",
+    ""Sevelamer"",
+    ""Lisinopril"",
+    ""Nephrocaps"",
+    ""NS"",
+    ""Dextrose 5%"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS (Mini Bag Plus)""
+  ]
+}
+```","```json
+{
+  ""admission_time"": ""2140-09-21 10:58:00"",
+  ""discharge_time"": ""2140-10-01 14:29:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""0380"",
+    ""99673"",
+    ""5761"",
+    ""57451"",
+    ""42731"",
+    ""5856"",
+    ""4538"",
+    ""5990"",
+    ""78552"",
+    ""51882"",
+    ""2875"",
+    ""5119"",
+    ""40391"",
+    ""4280"",
+    ""99659"",
+    ""7211"",
+    ""V1588"",
+    ""2380"",
+    ""2930"",
+    ""0414"",
+    ""99592"",
+    ""V4502"",
+    ""V1046""
+  ],
+  ""main_procedure_icd9"": [
+    ""3942"",
+    ""5110"",
+    ""9705"",
+    ""17"",
+    ""3995"",
+    ""8721"",
+    ""8849"",
+    ""3895""
+  ],
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""NS"",
+    ""D5W"",
+    ""NS"",
+    ""NS"",
+    ""LR"",
+    ""LR"",
+    ""NS (Mini Bag Plus)"",
+    ""NS (Mini Bag Plus)"",
+    ""Isotonic Sodium Chloride"",
+    ""D5 1/2NS"",
+    ""NS"",
+    ""Isotonic Sodium Chloride"",
+    ""Levofloxacin"",
+    ""Vancomycin HCl"",
+    ""Metronidazole"",
+    ""Piperacillin-Tazobactam Na"",
+    ""Gentamicin"",
+    ""Pantoprazole Sodium"",
+    ""Meropenem"",
+    ""Norepinephrine"",
+    ""Meropenem"",
+    ""Meropenem"",
+    ""Isotonic Sodium Chloride"",
+    ""Vial"",
+    ""NS"",
+    ""Gentamicin"",
+    ""Gentamicin"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Metoprolol"",
+    ""Metoprolol"",
+    ""Lisinopril"",
+    ""Aspirin"",
+    ""Simvastatin"",
+    ""Sevelamer"",
+    ""Isoniazid"",
+    ""Heparin"",
+    ""Acetaminophen"",
+    ""Metoprolol"",
+    ""Acetaminophen"",
+    ""Acetaminophen"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Fentanyl Citrate"",
+    ""Midazolam HCl"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Sevelamer"",
+    ""Pneumococcal Vac Polyvalent"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Heparin Flush CVL (100 units/ml)"",
+    ""Pantoprazole"",
+    ""Metoprolol"",
+    ""Lisinopril"",
+    ""Sevelamer"",
+    ""Lisinopril"",
+    ""Nephrocaps"",
+    ""NS"",
+    ""Dextrose 5%"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS"",
+    ""Iso-Osmotic Dextrose"",
+    ""NS (Mini Bag Plus)""
+  ]
+}
+```
+
+【相关文献补充】
+PMID: 40507340
+摘要: 1. Cancers (Basel). 2025 May 31;17(11):1859. doi: 10.3390/cancers17111859.
+
+A Retrospective Study on Biliary Cooling During Thermal Ablation of Central 
+Liver Tumors in Taiwan.
+
+Chou YC(1)(2), Tseng CW(1)(2), Ko PH(1)(2), Hung TH(1)(2), Li HF(1)(2), Tseng 
+KC(1)(2), Hsu CS(1)(2)(3)(4)(5), Wang CY(6).
+
+Author information:
+(1)Division of Gastroenterology, Department of Internal Medicine, Dalin Tzu Chi 
+Hospital, Buddhist Tzu Chi Medical Foundation, Chia-Yi 62247, Taiwan.
+(2)School of Medicine, Tzu Chi University, Hualien 97004, Taiwan.
+(3)Center for Digestive Medicine, Taichung Tzu Chi Hospital, Buddhist Tzu Chi 
+Medical Foundation, Taichung 42743, Taiwan.
+(4)Department of Medical Research, Taichung Tzu Chi Hospital, Buddhist Tzu Chi 
+Medical Foundation, Taichung 42743, Taiwan.
+(5)School of Post-Baccalaureate Chinese Medicine, Tzu Chi University, Hualien 
+97004, Taiwan.
+(6)Department of Medical Research, Dalin Tzu Chi Hospital, Buddhist Tzu Chi 
+Medical Foundation, Chia-Yi 62247, Taiwan.
+
+Background: Thermal ablation of centrally located liver tumors carries an 
+increased risk of bile duct injury due to their proximity to the biliary tree. 
+We aim to evaluate whether biliary cooling using a nasobiliary tube can 
+effectively mitigate bile duct injury during the ablation process. Methods: We 
+retrospectively analyzed the data of 322 patients who underwent thermal ablation 
+at Dalin Tzu Chi Hospital from July 2020 to June 2023 and identified those who 
+received prophylactic biliary cooling during thermal ablation for central liver 
+tumors. Data including demographics, tumor characteristics, procedural details, 
+and clinical outcomes were analyzed. Results: Among the 322 patients who 
+underwent thermal ablation, 9 with central liver tumors received prophylactic 
+biliary cooling. The median distance between the tumor and the central bile duct 
+was 1 mm (range: 0-4 mm), the temperature of the cold normal saline was 4 °C, 
+and the mean volume of normal saline infused was 150 mL (range: 100-200 mL). 
+Complete ablation was achieved in all patients in a single session without any 
+biliary injury. One patient developed acute cholangitis after ENBD placement, 
+which resolved with antibiotic therapy. Conclusions: Biliary cooling with 4 °C 
+cold saline through a nasobiliary tube can improve the safety and effectiveness 
+of thermal ablation for central liver tumors.
+
+DOI: 10.3390/cancers17111859
+PMID: 40507340
+---
+PMID: 40507535
+摘要: 1. J Clin Med. 2025 May 28;14(11):3773. doi: 10.3390/jcm14113773.
+
+Multiple Self-Made Side Holes in a Fully Covered Metal Stent Prevent 
+Intrahepatic Bile Duct Occlusion Following Endoscopic Ultrasound-Guided 
+Hepaticogastrostomy: A Retrospective Study in Japan.
+
+Kuwabara R(1), Hara K(1), Haba S(1), Kuwahara T(1), Okuno N(1), Koda H(1), Urata 
+M(1), Kondo T(1), Yamamoto Y(1), Oshiro K(1), Ogata T(1).
+
+Author information:
+(1)Department of Gastroenterology, Aichi Cancer Center Hospital, 1-1 Kanokoden, 
+Chikusa-ku, Nagoya 464-8681, Japan.
+
+Background/Objectives: Endoscopic ultrasound-guided hepaticogastrostomy 
+(EUS-HGS) using a fully covered self-expandable metal stent (FCSEMS) is an 
+alternative to endoscopic retrograde cholangiopancreatography for biliary 
+drainage; however, FCSEMSs may cause intrahepatic bile duct (IHD) obstruction 
+and cholangitis. In this study, we developed an FCSEMS with multiple self-made 
+side holes at its tip and evaluated its safety and efficacy. Methods: This 
+retrospective study included 100 patients who underwent EUS-HGS with FCSEMS 
+placement between April 2022 and October 2023. Fifty patients received a 
+conventional FCSEMS, and 50 received an FCSEMS with multiple self-made side 
+holes. Technical and clinical success, residual contrast in the IHD, recurrent 
+biliary obstruction (RBO), and adverse events (AEs) were then evaluated. The 
+clinical success rates were 98% and 90% for the side hole and conventional FCEMS 
+groups, respectively. The amount of residual contrast in the IHD was lower in 
+the side hole group (0% vs. 12%, p = 0.027). RBO incidence was significantly 
+lower in the side hole group (8% vs. 30%, p < 0.001), with migration as the 
+primary cause in the conventional group. Early AEs, including segmental 
+cholangitis, occurred only in the conventional group. During reintervention, all 
+stents were safely removed. Conclusions: The FCSEMSs with multiple side holes 
+reduced IHD occlusion and cholangitis, improving biliary drainage and safety. 
+Further studies are needed to confirm these findings.
+
+DOI: 10.3390/jcm14113773
+PMID: 40507535
+---
+PMID: 40510090
+摘要: 1. Cureus. 2025 May 13;17(5):e84040. doi: 10.7759/cureus.84040. eCollection 2025 
+May.
+
+Newly Diagnosed Hemoglobin SC Disease Presenting With Choledocholithiasis With 
+Acute Obstructive Cholangitis: A Case Report.
+
+Tran DT(1), Youn JJ(2), Thompson G(3).
+
+Author information:
+(1)Internal Medicine, Loma Linda University School of Medicine, Loma Linda, USA.
+(2)Ophthalmology, Loma Linda University School of Medicine, Loma Linda, USA.
+(3)Internal Medicine, Riverside University Health System Medical Center, Moreno 
+Valley, USA.
+
+Hemoglobin SC disease (HbSC) is a sickle cell disease (SCD) that is considered 
+to be mild compared to Hemoglobin SS (HbSS) disease. Both HbSS and HbSC can 
+present with classic SCD complications such as hemolytic anemia, vaso-occlusive 
+complications, functional aplenia, avascular necrosis, and cholelithiasis; 
+however, HbSC generally has less severe and less frequent complications and can 
+often be asymptomatic. As a result, HbSC is often underdiagnosed until a patient 
+presents with a clinically significant complication. We present a case of newly 
+diagnosed HbSC presenting with potentially life-threatening acute cholangitis 
+due to choledocholithiasis. This case report serves to demonstrate that serious 
+complications can occur in patients with HbSC. Additionally, early screening and 
+diagnosis of HbSC in high-risk patients may allow for earlier treatment and 
+potentially reduce the incidence of complications and increase patient quality 
+of life.
+
+Copyright © 2025, Tran et al.
+
+DOI: 10.7759/cureus.84040
+PMCID: PMC12161621
+PMID: 40510090
+
+Conflict of interest statement: Human subjects: Consent for treatment and open 
+access publication was obtained or waived by all participants in this study. 
+Conflicts of interest: In compliance with the ICMJE uniform disclosure form, all 
+authors declare the following: Payment/services info: All authors have declared 
+that no financial support was received from any organization for the submitted 
+work. Financial relationships: All authors have declared that they have no 
+financial relationships at present or within the previous three years with any 
+organizations that might have an interest in the submitted work. Other 
+relationships: All authors have declared that there are no other relationships 
+or activities that could appear to have influenced the submitted work.
+---
+"
+12282,1742301562,1688765196,2139-04-02 19:52:00,2139-04-15 14:35:00,,EMERGENCY,0,1,81249; 1985; 5070; 42830; 4280; 2851; 2765; 2875; 5849,7931; 9904; 46; 3893,Prochlorperazine; Naproxen; Furosemide; Docusate Sodium; Senna; Dronabinol; Tizanidine HCl; Levofloxacin; Metronidazole; Heparin; traMADOL; Acetaminophen; Metoprolol; traMADOL; Acetaminophen; Furosemide; Furosemide; traMADOL; Acetaminophen; Furosemide; Zolpidem Tartrate; Furosemide; Furosemide; Furosemide; Furosemide; Enoxaparin Sodium; Ketorolac; Morphine Sulfate; Furosemide; Furosemide; Cosyntropin; Insulin; traMADOL; Pantoprazole; Acetaminophen; traMADOL; Insulin; Senna; Bisacodyl; Bisacodyl; Lactulose; Morphine Sulfate; Morphine Sulfate; Bisacodyl; Senna; Lactulose; Morphine Sulfate IR; Docusate Sodium; Furosemide; Bisacodyl; Bisacodyl; Morphine Sulfate; Naproxen; Furosemide; Furosemide; traMADOL; Morphine Sulfate; Furosemide; Enoxaparin Sodium; Tizanidine HCl; Lactulose; Potassium Chloride; Captopril; Ipratropium Bromide MDI; Furosemide; Metoprolol; traMADOL; traMADOL; Furosemide; Metoprolol; Metoprolol; Iso-Osmotic Dextrose; D5W; D5W; Cefazolin; Phenylephrine HCl; Phenylephrine HCl,"```json
+{
+  ""admission_time"": ""2139-04-02 19:52:00"",
+  ""discharge_time"": ""2139-04-15 14:35:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""81249"", ""1985"", ""5070"", ""42830"", ""4280"", ""2851"", ""2765"", ""2875"", ""5849""],
+  ""main_procedure_icd9"": [""7931"", ""9904"", ""46"", ""3893""],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestions"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Prochlorperazine"",
+    ""Naproxen"",
+    ""Furosemide"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Dronabinol"",
+    ""Tizanidine HCl"",
+    ""Levofloxacin"",
+    ""Metronidazole"",
+    ""Heparin"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Metoprolol"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Furosemide"",
+    ""Zolpidem Tartrate"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Enoxaparin Sodium"",
+    ""Ketorolac"",
+    ""Morphine Sulfate"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Cosyntropin"",
+    ""Insulin"",
+    ""traMADOL"",
+    ""Pantoprazole"",
+    ""Acetaminophen"",
+    ""traMADOL"",
+    ""Insulin"",
+    ""Senna"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Lactulose"",
+    ""Morphine Sulfate"",
+    ""Morphine Sulfate"",
+    ""Bisacodyl"",
+    ""Senna"",
+    ""Lactulose"",
+    ""Morphine Sulfate IR"",
+    ""Docusate Sodium"",
+    ""Furosemide"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Morphine Sulfate"",
+    ""Naproxen"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""traMADOL"",
+    ""Morphine Sulfate"",
+    ""Furosemide"",
+    ""Enoxaparin Sodium"",
+    ""Tizanidine HCl"",
+    ""Lactulose"",
+    ""Potassium Chloride"",
+    ""Captopril"",
+    ""Ipratropium Bromide MDI"",
+    ""Furosemide"",
+    ""Metoprolol"",
+    ""traMADOL"",
+    ""traMADOL"",
+    ""Furosemide"",
+    ""Metoprolol"",
+    ""Metoprolol"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W"",
+    ""Cefazolin"",
+    ""Phenylephrine HCl"",
+    ""Phenylephrine HCl""
+  ]
+}
+```","```json
+{
+  ""admission_time"": ""2139-04-02 19:52:00"",
+  ""discharge_time"": ""2139-04-15 14:35:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [""81249"", ""1985"", ""5070"", ""42830"", ""4280"", ""2851"", ""2765"", ""2875"", ""5849""],
+  ""main_procedure_icd9"": [""7931"", ""9904"", ""46"", ""3893""],
+  ""chief_complaint"": """",
+  ""present_illness"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestions"": """",
+  ""treatment_effect"": """",
+  ""medication_records"": [
+    ""Prochlorperazine"",
+    ""Naproxen"",
+    ""Furosemide"",
+    ""Docusate Sodium"",
+    ""Senna"",
+    ""Dronabinol"",
+    ""Tizanidine HCl"",
+    ""Levofloxacin"",
+    ""Metronidazole"",
+    ""Heparin"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Metoprolol"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""traMADOL"",
+    ""Acetaminophen"",
+    ""Furosemide"",
+    ""Zolpidem Tartrate"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Enoxaparin Sodium"",
+    ""Ketorolac"",
+    ""Morphine Sulfate"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""Cosyntropin"",
+    ""Insulin"",
+    ""traMADOL"",
+    ""Pantoprazole"",
+    ""Acetaminophen"",
+    ""traMADOL"",
+    ""Insulin"",
+    ""Senna"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Lactulose"",
+    ""Morphine Sulfate"",
+    ""Morphine Sulfate"",
+    ""Bisacodyl"",
+    ""Senna"",
+    ""Lactulose"",
+    ""Morphine Sulfate IR"",
+    ""Docusate Sodium"",
+    ""Furosemide"",
+    ""Bisacodyl"",
+    ""Bisacodyl"",
+    ""Morphine Sulfate"",
+    ""Naproxen"",
+    ""Furosemide"",
+    ""Furosemide"",
+    ""traMADOL"",
+    ""Morphine Sulfate"",
+    ""Furosemide"",
+    ""Enoxaparin Sodium"",
+    ""Tizanidine HCl"",
+    ""Lactulose"",
+    ""Potassium Chloride"",
+    ""Captopril"",
+    ""Ipratropium Bromide MDI"",
+    ""Furosemide"",
+    ""Metoprolol"",
+    ""traMADOL"",
+    ""traMADOL"",
+    ""Furosemide"",
+    ""Metoprolol"",
+    ""Metoprolol"",
+    ""Iso-Osmotic Dextrose"",
+    ""D5W"",
+    ""D5W"",
+    ""Cefazolin"",
+    ""Phenylephrine HCl"",
+    ""Phenylephrine HCl""
+  ]
+}
+```
+
+【相关文献补充】
+PMID: 40402930
+摘要: 1. Radiographics. 2025 Jun;45(6):e240175. doi: 10.1148/rg.240175.
+
+Musculoskeletal Lymphoma: Imaging Features, Diagnosis, and Assessment of 
+Treatment Response.
+
+Sleeth CD(1), Moeller AR(1), Gaskin CM(1), Symanski JS(1), Davis KW(1), Kresse 
+ME(1).
+
+Author information:
+(1)From the Department of Radiology and Medical Imaging, University of Virginia 
+School of Medicine, 1215 Lee St, Charlottesville, VA 22903 (C.D.S., C.M.G., 
+K.W.D., M.E.K.); and Department of Radiology, University of Wisconsin School of 
+Medicine and Public Health, Madison, Wis (A.R.M., J.S.S.).
+
+Lymphoma, a diverse group of neoplasms, has been frequently refined in 
+classification, with over 100 types identified by the World Health Organization 
+in 2022. Lymphoma represents 5% of new malignancies in the United States, the 
+risk factors of which include genetic predisposition, infections, and 
+inflammatory conditions. Extranodal lymphoma, constituting 25%-40% of cases, 
+uncommonly involves the musculoskeletal system, with diffuse large B-cell 
+lymphoma being the primary type. Bone lymphoma, classified as primary, primary 
+multifocal, or secondary, predominantly affects the appendicular skeleton. 
+Radiography and CT aid osseous evaluation and may reveal a lytic, sclerotic, 
+mixed lytic and sclerotic, or near-normal appearance. MRI excels in soft-tissue 
+and bone marrow assessment, and PET/CT plays a pivotal role in staging. 
+Soft-tissue lymphoma, which involves various compartments, is best characterized 
+with MRI, whereas US may be the modality first used for evaluation. Staging 
+involves fluorodeoxyglucose (FDG) PET/CT, and treatment response is assessed 
+through various imaging modalities. Skin involvement, commonly associated with 
+primary cutaneous T-cell lymphoma, is described through stages, with FDG PET 
+aiding diagnosis. Transspatial lymphoma involves multiple contiguous spaces and 
+is known in the head and neck but not well documented in the musculoskeletal 
+system. The authors provide comprehensive insight into musculoskeletal lymphoma 
+by highlighting imaging findings crucial for diagnosis, classification, staging, 
+and assessment of treatment response. ©RSNA, 2025.
+
+DOI: 10.1148/rg.240175
+PMID: 40402930 [Indexed for MEDLINE]
+---
+PMID: 40420375
+摘要: 1. Gan To Kagaku Ryoho. 2025 May;52(5):411-413.
+
+[A Case of Invasive Lobular Carcinoma Complicated by Disseminated Carcinomatosis 
+of the Bone Marrow with Severe Bone Marrow Fibrosis and Acute Splenomegaly].
+
+[Article in Japanese]
+
+Nozaki Y(1), Yamamuro M, Tanaka N, Kamo N, Ueno M, Ishida T, Konishi J.
+
+Author information:
+(1)Dept. of Medical Oncology, National Hospital Organization Saitama Hospital.
+
+A 60-year-old female presented at our hospital with a mass in her left breast. 
+Needle biopsy of the breast mass confirmed a diagnosis of invasive lobular 
+carcinoma, and the patient underwent left mastectomy and axillary lymph node 
+dissection. The patient received adjuvant chemotherapy and was started on 
+continuous endocrine therapy. Three years post-surgery, she experienced 
+recurrence of multiple bone metastases and received a combination of hormone 
+therapy and selective cyclin-dependent kinases 4/6 inhibitors. Therapeutic 
+efficacy was poor, allowing bone metastases to spread. Four months 
+post-recurrence, blood tests revealed moderate thrombocytopenia. Despite the 
+switch to chemotherapy, the patient's platelet count did not recover. CT 
+revealed splenomegaly, which was not present three months earlier. Bone marrow 
+biopsy revealed severe myelofibrosis with infiltration of small dysplastic cells 
+into dense fibrotic tissue. The patient developed microangiopathic hemolytic 
+anemia, but DIC was not observed during the course of the disease. Ten months 
+after recurrence, a brain metastasis was detected, and the patient died the 
+following month.
+
+PMID: 40420375 [Indexed for MEDLINE]
+---
+PMID: 40478202
+摘要: 1. J Cell Mol Med. 2025 Jun;29(11):e70597. doi: 10.1111/jcmm.70597.
+
+MIB2-Mediated SUZ12 Ubiquitination Regulates Clonal Proliferation in Patients 
+With Paroxysmal Nocturnal Haemoglobinuria.
+
+Liu H(1)(2)(3), Zeng L(1)(2)(3), Wang C(1)(2)(3), Chen Y(1)(2)(3), Li 
+L(1)(2)(3), Liu Z(1)(2)(3), Wang H(1)(2)(3), Fu R(1)(2)(3).
+
+Author information:
+(1)Department of Hematology, Tianjin Medical University General Hospital, 
+Tianjin, China.
+(2)Tianjin Key Laboratory of Bone Marrow Failure and Malignant Hemopoietic Clone 
+Control, Tianjin, China.
+(3)Tianjin Institute of Hematology, Tianjin, China.
+
+Secondary gene mutations are one of the main mechanisms underlying paroxysmal 
+nocturnal haemoglobinuria (PNH) clone proliferation. Our previous studies showed 
+that SUZ12 participates in PNH clone proliferation by regulating H3K27me3. 
+However, the mechanism underlying the SUZ12 function remains unclear. 
+Immunoprecipitation and mass spectrometry were used to identify SUZ12 
+interacting proteins in PIGA-KO K562 cells. Furthermore, RNA-seq was used to 
+explore the signalling pathways. Finally, colony formation assays, western 
+blotting, and flow cytometry were performed to determine the proliferative 
+ability of the cells. We identified 59 potential proteins that interact with 
+SUZ12 and revealed a physical interaction between MIB2 and SUZ12 exclusively in 
+the K562-KO cell line. Furthermore, we emphasise the vital involvement of the 
+MIB/HERC and ZZ-type domains in the physical association between MIB2 and SUZ12. 
+After MIB2 knockdown, SUZ12 protein decreased while the ubiquitination levels of 
+SUZ12 were enhanced. Additionally, PRC2-related target genes were upregulated in 
+the siMIB2 group. SUZ12 and H3K27me3 expression levels and cell proliferation 
+significantly decreased after MIB2 knockdown, whereas cell apoptosis 
+significantly increased. MIB2 protein levels are also elevated in patients with 
+PNH. In conclusion, MIB2 affects the stability of the PRC2 complex by mediating 
+SUZ12 ubiquitination, which in turn regulates PNH clone proliferation.
+
+© 2025 The Author(s). Journal of Cellular and Molecular Medicine published by 
+Foundation for Cellular and Molecular Medicine and John Wiley & Sons Ltd.
+
+DOI: 10.1111/jcmm.70597
+PMCID: PMC12143176
+PMID: 40478202 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest.
+---
+"
+12283,2463137769,777409894,2133-12-05 02:46:00,2133-12-08 15:15:00,,EMERGENCY,0,1,24220; 51919; 5849; 2767; 42731; E8889; 4019; 25000; 2720; 311; 43811; 53390,,Sodium Chloride 0.9%  Flush; Sodium Polystyrene Sulfonate; Metoprolol; Ranitidine; Atorvastatin; Metoprolol; Heparin; Insulin; Venlafaxine XR; Lisinopril; Furosemide; Methimazole; Donepezil; Docusate Sodium; Docusate Sodium; Oxycodone (Sustained Release); Acetaminophen; Mirtazapine; Atorvastatin; Quetiapine Fumarate; Methimazole; Quetiapine Fumarate; Quetiapine Fumarate; Methimazole; Sodium Chloride 0.9%  Flush; Pantoprazole; Metoprolol; NS; NS; Iso-Osmotic Sodium Chloride; NS; Famotidine,"```json
+{
+  ""admission_time"": ""2133-12-05 02:46:00"",
+  ""discharge_time"": ""2133-12-08 15:15:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""24220"",
+    ""51919"",
+    ""5849"",
+    ""2767"",
+    ""42731"",
+    ""E8889"",
+    ""4019"",
+    ""25000"",
+    ""2720"",
+    ""311"",
+    ""43811"",
+    ""53390""
+  ],
+  ""main_procedure_icd9"": ""nan"",
+  ""pre_admission_history_summary"": """",
+  ""medication_records"": [
+    ""Sodium Chloride 0.9% Flush"",
+    ""Sodium Polystyrene Sulfonate"",
+    ""Metoprolol"",
+    ""Ranitidine"",
+    ""Atorvastatin"",
+    ""Metoprolol"",
+    ""Heparin"",
+    ""Insulin"",
+    ""Venlafaxine XR"",
+    ""Lisinopril"",
+    ""Furosemide"",
+    ""Methimazole"",
+    ""Donepezil"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium"",
+    ""Oxycodone (Sustained Release)"",
+    ""Acetaminophen"",
+    ""Mirtazapine"",
+    ""Atorvastatin"",
+    ""Quetiapine Fumarate"",
+    ""Methimazole"",
+    ""Quetiapine Fumarate"",
+    ""Quetiapine Fumarate"",
+    ""Methimazole"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Pantoprazole"",
+    ""Metoprolol"",
+    ""NS"",
+    ""NS"",
+    ""Iso-Osmotic Sodium Chloride"",
+    ""NS"",
+    ""Famotidine""
+  ],
+  ""discharge_summary"": """",
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """"
+}
+```","```json
+{
+  ""admission_time"": ""2133-12-05 02:46:00"",
+  ""discharge_time"": ""2133-12-08 15:15:00"",
+  ""admission_method"": ""EMERGENCY"",
+  ""admission_department"": ""EMERGENCY"",
+  ""discharge_method"": """",
+  ""main_diagnosis_icd9"": [
+    ""24220"",
+    ""51919"",
+    ""5849"",
+    ""2767"",
+    ""42731"",
+    ""E8889"",
+    ""4019"",
+    ""25000"",
+    ""2720"",
+    ""311"",
+    ""43811"",
+    ""53390""
+  ],
+  ""main_procedure_icd9"": ""nan"",
+  ""pre_admission_history_summary"": """",
+  ""medication_records"": [
+    ""Sodium Chloride 0.9% Flush"",
+    ""Sodium Polystyrene Sulfonate"",
+    ""Metoprolol"",
+    ""Ranitidine"",
+    ""Atorvastatin"",
+    ""Metoprolol"",
+    ""Heparin"",
+    ""Insulin"",
+    ""Venlafaxine XR"",
+    ""Lisinopril"",
+    ""Furosemide"",
+    ""Methimazole"",
+    ""Donepezil"",
+    ""Docusate Sodium"",
+    ""Docusate Sodium"",
+    ""Oxycodone (Sustained Release)"",
+    ""Acetaminophen"",
+    ""Mirtazapine"",
+    ""Atorvastatin"",
+    ""Quetiapine Fumarate"",
+    ""Methimazole"",
+    ""Quetiapine Fumarate"",
+    ""Quetiapine Fumarate"",
+    ""Methimazole"",
+    ""Sodium Chloride 0.9% Flush"",
+    ""Pantoprazole"",
+    ""Metoprolol"",
+    ""NS"",
+    ""NS"",
+    ""Iso-Osmotic Sodium Chloride"",
+    ""NS"",
+    ""Famotidine""
+  ],
+  ""discharge_summary"": """",
+  ""chief_complaint"": """",
+  ""present_illness_history"": """",
+  ""physical_signs"": """",
+  ""auxiliary_examination"": """",
+  ""diagnosis"": """",
+  ""treatment_process"": """",
+  ""treatment_suggestion"": """",
+  ""treatment_effect"": """"
+}
+```
+
+【相关文献补充】
+PMID: 40508859
+摘要: 1. Healthcare (Basel). 2025 May 26;13(11):1245. doi: 10.3390/healthcare13111245.
+
+Elevated IL-6 and IL-10 Levels as Prognostic Biomarkers in COVID-19 Pneumonia: A 
+Comparative Study in Mexican Patients.
+
+Aguirre-Alvarado C(1)(2), Cortes-Vázquez MÁ(3), Pérez-González YS(3), 
+Meza-Sánchez DE(4), Nuñez-Enriquez JC(5), Pinto-Cardoso SM(6), Bekker-Méndez 
+VC(2).
+
+Author information:
+(1)Laboratorio de Bioquímica Farmacológica, Escuela Nacional de Ciencias 
+Biológicas, Instituto Politécnico Nacional, Mexico City 11300, Mexico.
+(2)Unidad de Investigación Biomédica en Inmunología e Infectología, Hospital de 
+Infectología ""Dr Daniel Méndez Hernández"", Centro Médico Nacional (CMN) ""La 
+Raza"", Instituto Mexicano del Seguro Social (IMSS), Mexico City 02990, Mexico.
+(3)Hospital de Infectología ""Dr Daniel Méndez Hernández"", CMN ""La Raza"", IMSS, 
+Mexico City 02990, Mexico.
+(4)Red de Apoyo a la Investigación, Coordinación de la Investigación Científica, 
+Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán, Universidad 
+Nacional Autónoma de México, Mexico City 14080, Mexico.
+(5)Unidad de Investigación Médica en Epidemiología Clínica, UMAE Hospital de 
+Pediatría, Centro Médico Nacional ""Siglo XXI"", IMSS, Mexico City 06729, Mexico.
+(6)Centro de Investigación en Enfermedades Infecciosas, Instituto Nacional de 
+Enfermedades Respiratorias Ismael Cosío Villegas, Mexico City 14080, Mexico.
+
+BACKGROUND/OBJECTIVES: Proinflammatory cytokines have been associated with poor 
+prognosis in community-acquired and COVID-19 pneumonia. There is a paucity of 
+reports on the cytokine release syndrome, also called cytokine storm in the 
+Mexican population with pneumonia and COVID-19; therefore, our objective was to 
+compare proinflammatory cytokine levels in Mexican patients without COVID-19 
+(non-COVID-19) and those with moderate, severe, and critical COVID-19 pneumonia.
+METHODS: This study included 30 patients with non-COVID-19 pneumonia and 57 with 
+COVID-19 pneumonia. Disease diagnosis and severity were determined using the 
+radiographic pulmonary edema assessment (RALE) score. Quantification of IL-6, 
+IL-10, and TNF-α was performed using multiplex immunoassays. A receiver 
+operating characteristic curve was constructed to classify subjects with 
+elevated cytokine levels. Logistic regression was used to find associations 
+between elevated cytokine levels and the presence of COVID-19 pneumonia.
+RESULTS: The severity classification of patients with COVID-19 pneumonia was as 
+follows: moderate (n = 20), severe (n = 19), and critical (n = 18). The 
+proinflammatory cytokines IL-6 and IL-10 were significantly increased in 
+COVID-19 patients compared to non-COVID-19 patients (p < 0.005), while TNF-α 
+levels were lower in critically ill patients with COVID-19 pneumonia. High 
+levels of IL-6 and IL-10, adjusted for age, sex, the presence of comorbidities, 
+and the neutrophil-to-lymphocyte ratio (NLR), showed an elevated risk (OR IL-6 = 
+4.02; OR IL-10 = 9.36) of presenting pneumonia and COVID-19 compared to 
+pneumonia without COVID-19 in patients. Likewise, 61% of COVID-19 patients with 
+elevated proinflammatory cytokines (IL-6 and IL-10) had a fatal outcome.
+CONCLUSIONS: Elevated levels of both IL-6 and IL-10 are a differential risk 
+factor for developing COVID-19 pneumonia. These elevated levels were more 
+frequently observed in Mexican COVID-19 pneumonia patients who died at the onset 
+of the COVID-19 pandemic. It is important that they are monitored from initial 
+diagnosis as they may be markers of a fatal outcome in severe and critical 
+COVID-19 patients.
+
+DOI: 10.3390/healthcare13111245
+PMID: 40508859
+---
+PMID: 40510304
+摘要: 1. J Biomed Phys Eng. 2025 Jun 1;15(3):299-306. doi:
+10.31661/jbpe.v0i0.2212-1577.  eCollection 2025 Jun.
+
+Breakthrough Infection and Death after COVID-19 Vaccination: A Physics 
+Perspective.
+
+Mortazavi SAR(1), Jafarzadeh A(2), Ghadimi-Moghadam A(3), Mortazavi SMJ(4), 
+Haghani M(5), Ghadimi-Moghadam A(6), Sihver L(7)(8)(9).
+
+Author information:
+(1)MVLS College, The University of Glasgow, Glasgow, Scotland, UK.
+(2)Department of Immunology, Faculty of Medicine, Kerman University of Medical 
+Sciences, Kerman, Iran.
+(3)Yasuj University of Medical Sciences, Yasuj, Iran.
+(4)Department of Medical Physics and Engineering, School of Medicine, Shiraz 
+University of Medical Sciences, Shiraz, Iran.
+(5)Department of Radiology, School of Paramedical Sciences, Shiraz University of 
+Medical Sciences, Shiraz, Iran.
+(6)Faculty of Medicine, Szeged University, Szeged, Hungary.
+(7)Department of Informatics and Engineering Systems, College of Engineering and 
+Computer Science, University of Texas Rio Grande Valley, TX, USA.
+(8)Department of Chemistry and Chemical Engineering, Royal Military College of 
+Canada, Kingston, ON, Canada.
+(9)Department of Physics, East Carolina University, Greenville, NC 27858, USA.
+
+The largest universal immunization in history has occurred as a result of the 
+COVID-19 pandemic. The developed COVID-19 vaccines have been shown to provide 
+protection against severe forms of COVID-19 by inducing anti-spike neutralizing 
+antibodies. It has been found that individuals who have not been vaccinated 
+against COVID-19 were more likely to contract the virus during a period when the 
+Delta variant was dominant, as compared to those who have received the complete 
+dose of the vaccine, irrespective of the variant. However, there is no notable 
+disparity in the likelihood of hospitalization, requirement for mechanical 
+ventilation, or mortality between the two groups once infected. Nevertheless, 
+those who are unvaccinated may require additional oxygen support. There are 
+reports indicating unfavorable health effects, ranging from transient thyroid 
+dysfunction to death following vaccination. In addition, some people are 
+susceptible to SARS-CoV-2 infection despite they have immunized with the 
+COVID-19 vaccine. Given all these considerations, several key factors should be 
+better understood and considered to enable us to even more successfully manage 
+future pandemics breakthrough infections. The effectiveness of physical 
+treatment methods, e.g., Low Dose Radiation Therapy (LDRT) should be compared to 
+pharmacological treatments.
+
+Copyright: © Journal of Biomedical Physics and Engineering.
+
+DOI: 10.31661/jbpe.v0i0.2212-1577
+PMCID: PMC12153496
+PMID: 40510304
+
+Conflict of interest statement: SMJ. Mortazavi and L. Sihver, as the Editorial 
+Board Members, were not involved in the peer-review and decision-making 
+processes for this manuscript.
+---
+PMID: 40510179
+摘要: 1. Brain Behav Immun Health. 2025 May 20;46:101015. doi: 
+10.1016/j.bbih.2025.101015. eCollection 2025 Jul.
+
+The effect of dual inflammation on the acute phase clinical outcomes of 
+schizophrenia patients with comorbid COVID-19.
+
+Zhu J(1), Shao J(2), Wang P(3), Liu Y(4), Cheng G(3), Zhou Q(5), Li Z(6), Li 
+J(2), Wang M(2), Zhang Z(2), Dong X(4), Shi C(2).
+
+Author information:
+(1)Beijing Key Laboratory of Mental Disorders, National Clinical Research Center 
+for Mental Disorders & National Center for Mental Disorders, Beijing Anding 
+Hospital, Capital Medical University, Beijing, China.
+(2)Peking University Sixth Hospital, Peking University Institute of Mental 
+Health, NHC Key Laboratory of Mental Health (Peking University), National 
+Clinical Research Center for Mental Disorders (Peking University Sixth 
+Hospital), Beijing, China.
+(3)Wuhan Mental Health Center, Department of Psychiatry, Wuhan Hospital for 
+Psychotherapy, Wuhan, China.
+(4)The Eighth Clinical College Affiliated to Tongji Medical College, Huazhong 
+University of Science and Technology, Wuhan, China.
+(5)The Affiliated Brain Hospital of Nanjing Medical University, Nanjing, China.
+(6)Department of Applied Psychology and Human Development, University of 
+Toronto, Canada.
+
+BACKGROUND AND HYPOTHESIS: Inflammation plays a crucial role in pathological 
+mechanisms in schizophrenia (SZ) and the coronavirus disease 2019 (COVID-19), 
+but the impact of dual inflammation on SZs' clinical outcomes is poorly 
+understood. This study aimed to investigate whether dual inflammation impacts 
+acute phase outcomes in patients with schizophrenia comorbid with COVID-19 
+(COVID-SZs).
+STUDY DESIGN: A total of 114 SZs and 49 COVID-SZs were recruited for this study. 
+Plasma samples were collected and analyzed for levels of routine blood and 
+inflammatory cytokines from all the participants. Then clinical symptoms, 
+cognitive performance, and functional assessments were conducted at recruitment. 
+One-way analysis of covariance examined the differences in inflammatory 
+cytokines and correlation analyses examined the relationship between 
+inflammatory cytokines and clinical outcomes.
+STUDY RESULTS: After controlling for age, gender, substance use status, and 
+antipsychotic medications, levels of inflammatory cytokines increased in 
+COVID-SZs groups compared to SZs groups. There were significantly higher total 
+Positive and Negative Syndrome Scale (PANSS) scores and positive PANSS scores in 
+COVID-SZs groups compared to SZs. As for cognitive performance, the COVID-SZs 
+group had significantly worse performance in processing speed and attention than 
+the SZs. The COVID-SZs group had significantly worse health status compared to 
+the SZs. There were significantly different correlation patterns between the 
+severity of psychiatric symptoms and inflammatory cytokines in COVID-SZs and SZs 
+group.
+CONCLUSIONS: Findings indicate that dual inflammation exacerbates the acute 
+phase clinical outcome of COVID-SZs. Suggesting a combined anti-inflammatory 
+drug or the use of potentially anti-inflammatory antipsychotics in the acute 
+phase of treatment to mitigate central nervous system damage. Regular monitoring 
+of inflammatory marker levels can help reduce the risk of fluctuating 
+psychiatric symptoms in patients with schizophrenia caused by inflammatory 
+storms.
+
+© 2025 The Authors.
+
+DOI: 10.1016/j.bbih.2025.101015
+PMCID: PMC12159946
+PMID: 40510179
+
+Conflict of interest statement: The authors declare the following financial 
+interests/personal relationships which may be considered as potential competing 
+interests: CHUAN SHI reports financial support was provided by 
+10.13039/501100001809National Natural Science Foundation of China. CHUAN SHI 
+reports financial support was provided by 10.13039/501100009592Beijing Municipal 
+Science and Technology Commission. If there are other authors, they declare that 
+they have no known competing financial interests or personal relationships that 
+could have appeared to influence the work reported in this paper.
+---
+"

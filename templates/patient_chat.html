@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI健康咨询 - Web Mediverse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .patient-info {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .logout-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .chat-container {
+            flex: 1;
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            height: calc(100vh - 120px);
+            padding: 20px;
+        }
+
+        .welcome-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .welcome-title {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .welcome-text {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        .chat-messages {
+            flex: 1;
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .message {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+        }
+
+        .message-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .message.user .message-avatar {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+        }
+
+        .message.ai .message-avatar {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 15px 20px;
+            border-radius: 20px;
+            line-height: 1.6;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border-bottom-right-radius: 5px;
+        }
+
+        .message.ai .message-content {
+            background: #f8f9fa;
+            color: #2c3e50;
+            border: 1px solid #ecf0f1;
+            border-bottom-left-radius: 5px;
+        }
+
+        .message-time {
+            font-size: 0.8em;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+
+        .input-section {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .message-input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #ecf0f1;
+            border-radius: 25px;
+            font-size: 1em;
+            resize: none;
+            min-height: 50px;
+            max-height: 100px;
+        }
+
+        .message-input:focus {
+            outline: none;
+            border-color: #e74c3c;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+            min-width: 80px;
+        }
+
+        .send-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .typing-indicator {
+            display: none;
+            align-items: center;
+            gap: 10px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 3px;
+        }
+
+        .typing-dots span {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #bdc3c7;
+            animation: typing 1.5s infinite;
+        }
+
+        .typing-dots span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-dots span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: scale(1);
+                opacity: 0.5;
+            }
+            30% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
+        .quick-questions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .quick-question {
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            border: 1px solid #e74c3c;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .quick-question:hover {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .no-messages {
+            text-align: center;
+            color: #95a5a6;
+            font-style: italic;
+            margin: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">🤖 AI健康助手</div>
+            <div class="patient-info">患者ID: {{ patient_id }}</div>
+            <a href="/logout" class="logout-btn">退出登录</a>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="welcome-section">
+            <div class="welcome-title">👋 欢迎使用AI健康咨询服务</div>
+            <div class="welcome-text">
+                我是您的专属AI健康助手，基于您的病历信息和最新医学文献，为您提供个性化的健康建议。
+                请注意，AI建议仅供参考，不能替代专业医疗诊断，请务必咨询您的主治医生。
+            </div>
+            <div class="quick-questions">
+                <span class="quick-question" onclick="askQuickQuestion('我的病情怎么样？')">我的病情怎么样？</span>
+                <span class="quick-question" onclick="askQuickQuestion('我需要注意什么？')">我需要注意什么？</span>
+                <span class="quick-question" onclick="askQuickQuestion('有什么饮食建议吗？')">有什么饮食建议吗？</span>
+                <span class="quick-question" onclick="askQuickQuestion('如何配合治疗？')">如何配合治疗？</span>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="no-messages">开始您的健康咨询吧！输入问题即可获得AI助手的专业建议。</div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="message-avatar">🤖</div>
+            <span>AI助手正在思考</span>
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <textarea id="messageInput" class="message-input" 
+                      placeholder="请输入您的健康问题..." rows="1"></textarea>
+            <button onclick="sendMessage()" class="send-btn" id="sendBtn">发送</button>
+        </div>
+    </div>
+
+    <script>
+        let isWaiting = false;
+
+        function addMessage(content, isUser = false, timestamp = null) {
+            const chatMessages = document.getElementById('chatMessages');
+            const noMessages = chatMessages.querySelector('.no-messages');
+            
+            if (noMessages) {
+                noMessages.remove();
+            }
+
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'ai'}`;
+            
+            const time = timestamp || new Date().toLocaleTimeString('zh-CN', {
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+
+            messageDiv.innerHTML = `
+                <div class="message-avatar">${isUser ? '👤' : '🤖'}</div>
+                <div class="message-content">
+                    ${content}
+                    <div class="message-time">${time}</div>
+                </div>
+            `;
+
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function showTyping() {
+            document.getElementById('typingIndicator').style.display = 'flex';
+            const chatMessages = document.getElementById('chatMessages');
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function hideTyping() {
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+            
+            if (!message || isWaiting) return;
+
+            // 添加用户消息
+            addMessage(message, true);
+            input.value = '';
+            
+            // 禁用发送按钮和输入框
+            isWaiting = true;
+            document.getElementById('sendBtn').disabled = true;
+            input.disabled = true;
+            
+            // 显示输入指示器
+            showTyping();
+
+            try {
+                const response = await fetch('/ask_question', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: message })
+                });
+
+                const data = await response.json();
+                
+                hideTyping();
+
+                if (data.error) {
+                    addMessage(`抱歉，出现了错误：${data.error}`, false);
+                } else {
+                    addMessage(data.answer, false, data.timestamp);
+                }
+            } catch (error) {
+                hideTyping();
+                addMessage('抱歉，网络连接出现问题，请稍后再试。', false);
+            } finally {
+                // 重新启用发送按钮和输入框
+                isWaiting = false;
+                document.getElementById('sendBtn').disabled = false;
+                input.disabled = false;
+                input.focus();
+            }
+        }
+
+        function askQuickQuestion(question) {
+            document.getElementById('messageInput').value = question;
+            sendMessage();
+        }
+
+        // 自动调整输入框高度
+        document.getElementById('messageInput').addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = Math.min(this.scrollHeight, 100) + 'px';
+        });
+
+        // 回车发送消息
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // 页面加载完成后聚焦输入框
+        window.addEventListener('load', function() {
+            document.getElementById('messageInput').focus();
+        });
+    </script>
+</body>
+</html>
